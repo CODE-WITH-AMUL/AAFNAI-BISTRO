@@ -1,2392 +1,893 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <!-- ============================================================
-       SEO — Primary metadata
-       ============================================================ -->
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <title>AAFNAI BISTRO | Best Cafe in New Road, Kathmandu — Coffee, Brunch & Asian Bistro</title>
-
-  <meta name="description" content="Visit AAFNAI BISTRO, a welcoming women-owned cafe in New Road, Kathmandu for fresh coffee, Asian bistro food, breakfast, brunch and a relaxed atmosphere. Dine-in, takeaway & delivery. Open from 7 AM.">
-
-  <meta name="keywords" content="cafe in New Road Kathmandu, best cafe near me Kathmandu, coffee shop Kathmandu, Asian bistro Kathmandu, breakfast cafe Kathmandu, brunch cafe Kathmandu, cozy cafe near me, cafe with wifi Kathmandu, women-owned cafe Nepal, LGBTQ friendly cafe Kathmandu">
-
-  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
-  <meta name="author" content="AAFNAI BISTRO">
-  <meta name="language" content="en">
-  <meta name="geo.region" content="NP-BA">
-  <meta name="geo.placename" content="Kathmandu">
-  <meta name="geo.position" content="27.6968644;85.3504572">
-  <meta name="ICBM" content="27.6968644, 85.3504572">
-
-  <link rel="canonical" href="https://restroberry.com/">
-
-  <!-- ============================================================
-       SEO — Open Graph (Facebook, LinkedIn, WhatsApp)
-       ============================================================ -->
-  <meta property="og:type" content="restaurant">
-  <meta property="og:site_name" content="AAFNAI BISTRO">
-  <meta property="og:title" content="AAFNAI BISTRO | Cafe & Asian Bistro in New Road, Kathmandu">
-  <meta property="og:description" content="Women-owned cafe in New Road, Kathmandu. Great coffee, honest food, warm vibes. Open 7 AM daily. Dine-in, takeaway & delivery.">
-  <meta property="og:url" content="https://restroberry.com/">
-  <meta property="og:image" content="https://images.unsplash.com/photo-1554118811-1e0d58224f24?q=80&w=2047&auto=format&fit=crop">
-  <meta property="og:image:width" content="1200">
-  <meta property="og:image:height" content="630">
-  <meta property="og:image:alt" content="AAFNAI BISTRO interior with warm lighting and coffee on the table">
-  <meta property="og:locale" content="en_US">
-  <meta property="og:locale:alternate" content="ne_NP">
-
-  <!-- ============================================================
-       SEO — Twitter / X Card
-       ============================================================ -->
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="AAFNAI BISTRO | Cafe in New Road, Kathmandu">
-  <meta name="twitter:description" content="Women-owned cafe & Asian bistro in Kathmandu. Great coffee, breakfast, brunch, late-night bites. Open 7 AM daily.">
-  <meta name="twitter:image" content="https://images.unsplash.com/photo-1554118811-1e0d58224f24?q=80&w=2047&auto=format&fit=crop">
-  <meta name="twitter:image:alt" content="AAFNAI BISTRO cafe interior">
-
-  <!-- ============================================================
-       Performance & theme
-       ============================================================ -->
-  <meta name="theme-color" content="#FFFFFF">
-  <meta name="format-detection" content="telephone=yes">
-
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="preconnect" href="https://images.unsplash.com">
-  <link rel="dns-prefetch" href="https://www.google.com">
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Geist+Mono:wght@400;500&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-
-  <style>
-    /* ============================================================
-       DESIGN TOKENS
-       ============================================================ */
-    :root {
-      --bg-canvas:    #FFFFFF;
-      --bg-subtle:    #F6F6F7;
-      --bg-muted:     #EDEDEF;
-      --bg-elevated:  #FFFFFF;
-      --border-subtle:#E3E3E6;
-      --border-strong:#C9C9CE;
-
-      --text-primary:  #0B0B0C;
-      --text-secondary:#4A4A50;
-      --text-tertiary: #6E6E75;
-
-      --accent-orange: #6F4E37;
-      --accent-hover:  #5A3E2B;
-      --accent-soft:   #F5EDE6;
-      --accent-ink:    #FFFFFF;
-
-      --success: #0F7B3E;
-      --danger:  #C42B1C;
-
-      --radius-card: 12px;
-      --radius-pill: 9999px;
-      --radius-input: 8px;
-
-      --header-h: 56px;
-      --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
-    }
-
-    @media (prefers-color-scheme: dark) {
-      :root {
-        --bg-canvas:    #0B0B0C;
-        --bg-subtle:    #141416;
-        --bg-muted:     #1C1C1F;
-        --bg-elevated:  #1A1A1D;
-        --border-subtle:#26262A;
-        --border-strong:#3A3A40;
-
-        --text-primary:  #F2F2F3;
-        --text-secondary:#B8B8BE;
-        --text-tertiary: #8A8A91;
-
-        --accent-orange: #C99A6E;
-        --accent-hover:  #DBAE7E;
-        --accent-soft:   #2A150E;
-        --accent-ink:    #0B0B0C;
-      }
-    }
-
-    * { margin: 0; padding: 0; box-sizing: border-box; }
-    html { scroll-behavior: smooth; }
-
-    body {
-      font-family: 'Inter', system-ui, -apple-system, sans-serif;
-      font-size: 15px;
-      line-height: 1.5;
-      background: var(--bg-canvas);
-      color: var(--text-primary);
-      -webkit-font-smoothing: antialiased;
-      overflow-x: hidden;
-    }
-
-    img { display: block; max-width: 100%; height: auto; object-fit: cover; }
-    a { color: inherit; text-decoration: none; }
-    button { font-family: inherit; cursor: pointer; border: none; background: none; color: inherit; }
-
-    :focus-visible {
-      outline: 2px solid var(--accent-orange);
-      outline-offset: 2px;
-      border-radius: 4px;
-    }
-
-    @media (prefers-reduced-motion: reduce) {
-      *, *::before, *::after {
-        animation-duration: 0.01ms !important;
-        transition-duration: 0.01ms !important;
-        scroll-behavior: auto !important;
-      }
-    }
-
-    /* Skip link for accessibility */
-    .skip-link {
-      position: absolute;
-      top: -100px;
-      left: 0;
-      background: var(--accent-orange);
-      color: var(--accent-ink);
-      padding: 12px 20px;
-      z-index: 999;
-      border-radius: 0 0 8px 0;
-      font-weight: 600;
-      transition: top 200ms var(--ease-out);
-    }
-    .skip-link:focus { top: 0; }
-
-    /* ============================================================
-       UTILITIES
-       ============================================================ */
-    .container {
-      max-width: 1280px;
-      margin: 0 auto;
-      padding: 0 24px;
-    }
-
-    .section-label {
-      font-family: 'Geist Mono', monospace;
-      font-size: 11px;
-      font-weight: 600;
-      letter-spacing: 0.14em;
-      text-transform: uppercase;
-      color: var(--text-tertiary);
-      margin-bottom: 12px;
-    }
-
-    .section-title {
-      font-family: 'Playfair Display', serif;
-      font-size: clamp(28px, 4.2vw, 44px);
-      font-weight: 600;
-      line-height: 1.1;
-      letter-spacing: -0.02em;
-      color: var(--text-primary);
-      margin-bottom: 12px;
-    }
-
-    .section-sub {
-      color: var(--text-secondary);
-      max-width: 640px;
-      font-size: 16px;
-      line-height: 1.65;
-    }
-
-    .btn {
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      gap: 8px;
-      padding: 12px 24px;
-      min-height: 44px;
-      font-size: 13px;
-      font-weight: 600;
-      letter-spacing: 0.04em;
-      text-transform: uppercase;
-      border-radius: var(--radius-pill);
-      border: 1px solid transparent;
-      transition: all 150ms var(--ease-out);
-      cursor: pointer;
-    }
-
-    .btn-primary {
-      background: var(--accent-orange);
-      color: var(--accent-ink);
-      border-color: var(--accent-orange);
-    }
-    .btn-primary:hover {
-      background: var(--accent-hover);
-      border-color: var(--accent-hover);
-      transform: translateY(-1px);
-    }
-
-    .btn-outline {
-      background: transparent;
-      color: var(--text-primary);
-      border-color: var(--border-strong);
-    }
-    .btn-outline:hover {
-      background: var(--bg-muted);
-      border-color: var(--text-secondary);
-    }
-
-    .reveal {
-      opacity: 0;
-      transform: translateY(20px);
-      transition: opacity 600ms var(--ease-out), transform 600ms var(--ease-out);
-    }
-    .reveal.visible { opacity: 1; transform: translateY(0); }
-
-    /* ============================================================
-       HEADER
-       ============================================================ */
-    .header {
-      position: fixed;
-      top: 0; left: 0; right: 0;
-      height: var(--header-h);
-      z-index: 100;
-      background: color-mix(in srgb, var(--bg-canvas) 78%, transparent);
-      backdrop-filter: saturate(180%) blur(12px);
-      -webkit-backdrop-filter: saturate(180%) blur(12px);
-      border-bottom: 1px solid transparent;
-      transition: border-color 200ms var(--ease-out);
-    }
-    .header.scrolled { border-bottom-color: var(--border-subtle); }
-
-    .header .container {
-      height: 100%;
-      display: flex;
-      align-items: center;
-      gap: 24px;
-    }
-
-    .logo {
-      font-family: 'Playfair Display', serif;
-      font-size: 20px;
-      font-weight: 700;
-      color: var(--text-primary);
-      white-space: nowrap;
-    }
-    .logo span { color: var(--accent-orange); }
-
-    .nav-desktop {
-      display: flex;
-      gap: 4px;
-      font-size: 14px;
-      font-weight: 500;
-      margin-left: 8px;
-    }
-
-    .nav-desktop a {
-      color: var(--text-secondary);
-      padding: 8px 12px;
-      border-radius: 8px;
-      transition: all 150ms var(--ease-out);
-    }
-    .nav-desktop a:hover {
-      color: var(--text-primary);
-      background: var(--bg-muted);
-    }
-
-    .header-spacer { flex: 1; }
-
-    .header-actions {
-      display: flex;
-      align-items: center;
-      gap: 8px;
-    }
-
-    .icon-btn {
-      width: 40px;
-      height: 40px;
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      border-radius: 10px;
-      color: var(--text-secondary);
-      transition: all 150ms var(--ease-out);
-    }
-    .icon-btn:hover {
-      background: var(--bg-muted);
-      color: var(--text-primary);
-    }
-
-    .header .btn {
-      padding: 8px 16px;
-      min-height: 36px;
-      font-size: 12px;
-    }
-
-    .mobile-toggle {
-      display: none;
-      width: 40px; height: 40px;
-      align-items: center;
-      justify-content: center;
-      font-size: 18px;
-      color: var(--text-primary);
-      border-radius: 10px;
-    }
-    .mobile-toggle:hover { background: var(--bg-muted); }
-
-    .mobile-menu {
-      position: fixed;
-      inset: 0;
-      background: var(--bg-canvas);
-      z-index: 90;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      gap: 8px;
-      padding: 80px 24px 40px;
-      opacity: 0;
-      pointer-events: none;
-      transition: opacity 240ms var(--ease-out);
-    }
-    .mobile-menu.open { opacity: 1; pointer-events: all; }
-
-    .mobile-menu a {
-      font-family: 'Playfair Display', serif;
-      font-size: 26px;
-      font-weight: 500;
-      padding: 12px 20px;
-      color: var(--text-primary);
-      transition: color 150ms var(--ease-out);
-    }
-    .mobile-menu a:hover { color: var(--accent-orange); }
-
-    .mobile-menu .btn {
-      margin-top: 20px;
-      font-family: 'Inter', sans-serif;
-      font-size: 13px;
-    }
-
-    /* ============================================================
-       HERO
-       ============================================================ */
-    .hero {
-      position: relative;
-      min-height: 100vh;
-      min-height: 100dvh;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      text-align: center;
-      overflow: hidden;
-      padding: 96px 24px 64px;
-    }
-
-    .hero-bg {
-      position: absolute;
-      inset: 0;
-      background-image: url('https://images.unsplash.com/photo-1554118811-1e0d58224f24?q=80&w=2070&auto=format&fit=crop');
-      background-size: cover;
-      background-position: center;
-      z-index: 0;
-    }
-
-    .hero-overlay {
-      position: absolute;
-      inset: 0;
-      background: linear-gradient(180deg, rgba(11,11,12,0.55) 0%, rgba(11,11,12,0.75) 100%);
-      z-index: 1;
-    }
-
-    .hero-content {
-      position: relative;
-      z-index: 2;
-      color: #FFFFFF;
-      max-width: 780px;
-    }
-
-    .hero-est {
-      font-family: 'Geist Mono', monospace;
-      font-size: 11px;
-      font-weight: 500;
-      letter-spacing: 0.28em;
-      text-transform: uppercase;
-      color: rgba(255,255,255,0.75);
-      margin-bottom: 24px;
-      opacity: 0;
-      animation: fadeUp 600ms 200ms var(--ease-out) forwards;
-    }
-
-    .hero-title {
-      font-family: 'Playfair Display', serif;
-      font-size: clamp(38px, 6.5vw, 72px);
-      font-weight: 600;
-      line-height: 1.05;
-      letter-spacing: -0.025em;
-      margin-bottom: 24px;
-      opacity: 0;
-      animation: fadeUp 700ms 350ms var(--ease-out) forwards;
-    }
-
-    .hero-title .hero-city {
-      display: block;
-      font-size: 0.42em;
-      font-style: italic;
-      font-weight: 400;
-      letter-spacing: 0;
-      color: rgba(255,255,255,0.85);
-      margin-top: 16px;
-    }
-
-    .hero-sub {
-      font-size: 17px;
-      line-height: 1.6;
-      color: rgba(255,255,255,0.9);
-      max-width: 620px;
-      margin: 0 auto 36px;
-      opacity: 0;
-      animation: fadeUp 700ms 500ms var(--ease-out) forwards;
-    }
-
-    .hero-buttons {
-      display: flex;
-      gap: 12px;
-      justify-content: center;
-      flex-wrap: wrap;
-      opacity: 0;
-      animation: fadeUp 700ms 650ms var(--ease-out) forwards;
-    }
-
-    .hero .btn-primary {
-      background: #FFFFFF;
-      color: #0B0B0C;
-      border-color: #FFFFFF;
-    }
-    .hero .btn-primary:hover {
-      background: var(--accent-orange);
-      border-color: var(--accent-orange);
-      color: #FFFFFF;
-    }
-
-    .hero .btn-outline {
-      background: transparent;
-      color: #FFFFFF;
-      border-color: rgba(255,255,255,0.5);
-    }
-    .hero .btn-outline:hover {
-      background: rgba(255,255,255,0.12);
-      border-color: #FFFFFF;
-    }
-
-    .scroll-indicator {
-      position: absolute;
-      bottom: 32px;
-      left: 50%;
-      transform: translateX(-50%);
-      z-index: 3;
-      color: rgba(255,255,255,0.6);
-      font-size: 16px;
-      opacity: 0;
-      animation: fadeUp 600ms 900ms var(--ease-out) forwards, bounce 2.4s 1.5s infinite;
-      transition: opacity 300ms var(--ease-out);
-    }
-
-    @keyframes fadeUp {
-      from { opacity: 0; transform: translateY(20px); }
-      to   { opacity: 1; transform: translateY(0); }
-    }
-    @keyframes bounce {
-      0%, 20%, 55%, 100% { transform: translateX(-50%) translateY(0); }
-      40% { transform: translateX(-50%) translateY(-8px); }
-    }
-
-    /* ============================================================
-       TRUST BAR
-       ============================================================ */
-    .trust-bar {
-      background: var(--bg-subtle);
-      border-bottom: 1px solid var(--border-subtle);
-      padding: 20px 0;
-    }
-
-    .trust-items {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-wrap: wrap;
-      gap: 32px;
-      font-family: 'Geist Mono', monospace;
-      font-size: 11px;
-      font-weight: 500;
-      letter-spacing: 0.14em;
-      text-transform: uppercase;
-      color: var(--text-secondary);
-    }
-
-    .trust-items span {
-      display: inline-flex;
-      align-items: center;
-      gap: 8px;
-    }
-
-    .trust-items i { color: var(--accent-orange); font-size: 12px; }
-
-    /* ============================================================
-       FEATURED
-       ============================================================ */
-    .featured-item {
-      position: relative;
-      min-height: 100vh;
-      min-height: 100dvh;
-      display: flex;
-      align-items: flex-end;
-      overflow: hidden;
-    }
-
-    .featured-bg { position: absolute; inset: 0; z-index: 0; }
-    .featured-bg img {
-      width: 100%; height: 100%;
-      object-fit: cover;
-      filter: brightness(0.7);
-      transition: transform 700ms var(--ease-out);
-    }
-    .featured-item:hover .featured-bg img { transform: scale(1.03); }
-
-    .featured-overlay {
-      position: absolute;
-      inset: 0;
-      background: linear-gradient(to top, rgba(11,11,12,0.88) 0%, rgba(11,11,12,0.35) 55%, transparent 100%);
-      z-index: 1;
-    }
-
-    .featured-content {
-      position: relative;
-      z-index: 2;
-      width: 100%;
-      max-width: 1280px;
-      margin: 0 auto;
-      padding: 0 24px 64px;
-      color: #FFFFFF;
-      display: flex;
-      justify-content: space-between;
-      align-items: flex-end;
-      flex-wrap: wrap;
-      gap: 24px;
-    }
-
-    .featured-text { max-width: 560px; }
-
-    .featured-category {
-      font-family: 'Geist Mono', monospace;
-      font-size: 11px;
-      font-weight: 500;
-      letter-spacing: 0.22em;
-      text-transform: uppercase;
-      color: rgba(255,255,255,0.7);
-      margin-bottom: 16px;
-    }
-
-    .featured-name {
-      font-family: 'Playfair Display', serif;
-      font-size: clamp(32px, 5vw, 56px);
-      font-weight: 600;
-      line-height: 1.05;
-      letter-spacing: -0.02em;
-      margin-bottom: 12px;
-    }
-
-    .featured-desc {
-      font-size: 16px;
-      color: rgba(255,255,255,0.82);
-      margin-bottom: 24px;
-      line-height: 1.5;
-    }
-
-    .featured .btn-primary {
-      background: #FFFFFF;
-      color: #0B0B0C;
-      border-color: #FFFFFF;
-    }
-    .featured .btn-primary:hover {
-      background: var(--accent-orange);
-      color: #FFFFFF;
-      border-color: var(--accent-orange);
-    }
-
-    .featured-progress {
-      display: flex;
-      flex-direction: column;
-      gap: 6px;
-      align-items: flex-end;
-    }
-
-    .featured-progress span {
-      font-family: 'Geist Mono', monospace;
-      font-size: 13px;
-      font-weight: 500;
-      color: rgba(255,255,255,0.4);
-      transition: color 200ms var(--ease-out);
-    }
-    .featured-progress span.active { color: #FFFFFF; font-weight: 600; }
-
-    /* ============================================================
-       WHY US — Bento
-       ============================================================ */
-    .why-us { padding: 96px 0; background: var(--bg-canvas); }
-    .why-header { text-align: center; margin-bottom: 48px; }
-
-    .bento-grid {
-      display: grid;
-      grid-template-columns: repeat(4, 1fr);
-      grid-auto-rows: minmax(180px, auto);
-      gap: 16px;
-    }
-
-    .bento-card {
-      background: var(--bg-subtle);
-      border: 1px solid var(--border-subtle);
-      border-radius: var(--radius-card);
-      padding: 28px 24px;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-      transition: border-color 200ms var(--ease-out), transform 200ms var(--ease-out);
-    }
-    .bento-card:hover {
-      border-color: var(--border-strong);
-      transform: translateY(-2px);
-    }
-
-    .bento-card.span-2 { grid-column: span 2; }
-
-    .bento-icon {
-      width: 40px; height: 40px;
-      border-radius: 10px;
-      background: var(--bg-canvas);
-      border: 1px solid var(--border-subtle);
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      color: var(--accent-orange);
-      font-size: 15px;
-      margin-bottom: 20px;
-    }
-
-    .bento-card h3 {
-      font-family: 'Playfair Display', serif;
-      font-size: 20px;
-      font-weight: 600;
-      letter-spacing: -0.01em;
-      margin-bottom: 8px;
-      color: var(--text-primary);
-    }
-
-    .bento-card p {
-      color: var(--text-secondary);
-      font-size: 14px;
-      line-height: 1.6;
-    }
-
-    .bento-tag {
-      display: inline-block;
-      font-family: 'Geist Mono', monospace;
-      font-size: 10px;
-      font-weight: 600;
-      letter-spacing: 0.14em;
-      text-transform: uppercase;
-      color: var(--accent-orange);
-      background: var(--accent-soft);
-      padding: 4px 10px;
-      border-radius: var(--radius-pill);
-      margin-top: 12px;
-      align-self: flex-start;
-    }
-
-    /* ============================================================
-       MENU
-       ============================================================ */
-    .menu-section {
-      padding: 96px 0;
-      background: var(--bg-subtle);
-      border-top: 1px solid var(--border-subtle);
-      border-bottom: 1px solid var(--border-subtle);
-    }
-
-    .menu-header { text-align: center; margin-bottom: 48px; }
-
-    .menu-categories {
-      display: flex;
-      justify-content: center;
-      gap: 8px;
-      flex-wrap: wrap;
-      margin-bottom: 40px;
-    }
-
-    .category-btn {
-      padding: 10px 18px;
-      border-radius: var(--radius-pill);
-      font-family: 'Geist Mono', monospace;
-      font-size: 12px;
-      font-weight: 500;
-      letter-spacing: 0.06em;
-      text-transform: uppercase;
-      background: transparent;
-      border: 1px solid var(--border-subtle);
-      color: var(--text-secondary);
-      transition: all 150ms var(--ease-out);
-      min-height: 40px;
-    }
-    .category-btn:hover {
-      border-color: var(--border-strong);
-      color: var(--text-primary);
-    }
-    .category-btn.active {
-      background: var(--text-primary);
-      border-color: var(--text-primary);
-      color: var(--bg-canvas);
-    }
-
-    .menu-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
-      gap: 20px;
-    }
-
-    .menu-card {
-      background: var(--bg-elevated);
-      border: 1px solid var(--border-subtle);
-      border-radius: var(--radius-card);
-      overflow: hidden;
-      transition: all 200ms var(--ease-out);
-    }
-    .menu-card:hover {
-      border-color: var(--border-strong);
-      transform: translateY(-2px);
-    }
-
-    .menu-card-image {
-      aspect-ratio: 4/3;
-      overflow: hidden;
-      background: var(--bg-muted);
-    }
-    .menu-card-image img {
-      width: 100%; height: 100%;
-      object-fit: cover;
-      transition: transform 500ms var(--ease-out);
-    }
-    .menu-card:hover .menu-card-image img { transform: scale(1.04); }
-
-    .menu-card-body { padding: 18px 18px 20px; }
-
-    .menu-card-name {
-      font-size: 16px;
-      font-weight: 600;
-      color: var(--text-primary);
-      margin-bottom: 4px;
-    }
-
-    .menu-card-desc {
-      font-size: 14px;
-      color: var(--text-secondary);
-      line-height: 1.5;
-      margin-bottom: 16px;
-    }
-
-    .menu-card-footer {
-      display: flex;
-      justify-content: flex-end;
-      align-items: center;
-    }
-
-    .menu-card-add {
-      width: 36px; height: 36px;
-      border-radius: 10px;
-      background: var(--bg-subtle);
-      border: 1px solid var(--border-subtle);
-      color: var(--text-secondary);
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 14px;
-      transition: all 150ms var(--ease-out);
-    }
-    .menu-card-add:hover {
-      background: var(--accent-orange);
-      border-color: var(--accent-orange);
-      color: var(--accent-ink);
-    }
-
-    .menu-empty {
-      grid-column: 1 / -1;
-      text-align: center;
-      padding: 48px 24px;
-      color: var(--text-tertiary);
-      font-family: 'Geist Mono', monospace;
-      font-size: 13px;
-      text-transform: uppercase;
-      letter-spacing: 0.08em;
-    }
-
-    /* ============================================================
-       LOCAL AREA CONTENT (SEO)
-       ============================================================ */
-    .local-area {
-      padding: 96px 0;
-      background: var(--bg-canvas);
-    }
-
-    .local-grid {
-      display: grid;
-      grid-template-columns: 1.4fr 1fr;
-      gap: 64px;
-      align-items: center;
-    }
-
-    .local-content h2 { margin-bottom: 20px; }
-
-    .local-content p {
-      color: var(--text-secondary);
-      font-size: 16px;
-      line-height: 1.75;
-      margin-bottom: 18px;
-      max-width: 60ch;
-    }
-
-    .local-content p strong {
-      color: var(--text-primary);
-      font-weight: 600;
-    }
-
-    .local-tags {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 8px;
-      margin-top: 28px;
-    }
-
-    .local-tag {
-      font-family: 'Geist Mono', monospace;
-      font-size: 11px;
-      font-weight: 500;
-      letter-spacing: 0.08em;
-      text-transform: uppercase;
-      color: var(--text-secondary);
-      background: var(--bg-subtle);
-      border: 1px solid var(--border-subtle);
-      padding: 8px 14px;
-      border-radius: var(--radius-pill);
-    }
-
-    .local-visual {
-      aspect-ratio: 4/5;
-      border-radius: var(--radius-card);
-      overflow: hidden;
-      background: var(--bg-muted);
-    }
-    .local-visual img { width: 100%; height: 100%; object-fit: cover; }
-
-    /* ============================================================
-       TESTIMONIALS
-       ============================================================ */
-    .testimonials { padding: 96px 0; background: var(--bg-subtle); border-top: 1px solid var(--border-subtle); border-bottom: 1px solid var(--border-subtle); }
-    .testimonials-header { text-align: center; margin-bottom: 48px; }
-
-    .testimonial-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-      gap: 20px;
-    }
-
-    .testimonial-card {
-      background: var(--bg-elevated);
-      border: 1px solid var(--border-subtle);
-      border-radius: var(--radius-card);
-      padding: 28px 24px;
-      display: flex;
-      flex-direction: column;
-      gap: 16px;
-      transition: border-color 200ms var(--ease-out);
-    }
-    .testimonial-card:hover { border-color: var(--border-strong); }
-
-    .testimonial-stars {
-      color: #E9A23B;
-      font-size: 13px;
-      letter-spacing: 2px;
-    }
-
-    .testimonial-quote {
-      font-size: 15px;
-      line-height: 1.65;
-      color: var(--text-primary);
-      flex: 1;
-    }
-
-    .testimonial-author {
-      display: flex;
-      align-items: center;
-      gap: 12px;
-      padding-top: 16px;
-      border-top: 1px solid var(--border-subtle);
-    }
-
-    .testimonial-avatar {
-      width: 36px; height: 36px;
-      border-radius: 50%;
-      background: var(--accent-orange);
-      color: var(--accent-ink);
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      font-weight: 700;
-      font-size: 14px;
-    }
-
-    .testimonial-name {
-      font-weight: 600;
-      font-size: 14px;
-      color: var(--text-primary);
-    }
-
-    .testimonial-role {
-      font-family: 'Geist Mono', monospace;
-      font-size: 11px;
-      color: var(--text-tertiary);
-      letter-spacing: 0.06em;
-    }
-
-    .testimonials-cta {
-      text-align: center;
-      margin-top: 40px;
-    }
-
-    /* ============================================================
-       LOCATION + MAP
-       ============================================================ */
-    .location { padding: 96px 0; background: var(--bg-canvas); }
-
-    .location-grid {
-      display: grid;
-      grid-template-columns: 1fr 1.4fr;
-      gap: 48px;
-      align-items: stretch;
-    }
-
-    .location-info { display: flex; flex-direction: column; justify-content: center; }
-
-    .location-info h2 {
-      font-family: 'Playfair Display', serif;
-      font-size: 28px;
-      font-weight: 600;
-      letter-spacing: -0.01em;
-      margin-bottom: 8px;
-      color: var(--text-primary);
-    }
-
-    .location-info > p {
-      color: var(--text-secondary);
-      font-size: 15px;
-      margin-bottom: 28px;
-      line-height: 1.65;
-    }
-
-    .location-detail {
-      display: flex;
-      align-items: flex-start;
-      gap: 14px;
-      padding: 16px 0;
-      border-top: 1px solid var(--border-subtle);
-    }
-    .location-detail:last-of-type {
-      border-bottom: 1px solid var(--border-subtle);
-      margin-bottom: 28px;
-    }
-
-    .location-detail i {
-      color: var(--accent-orange);
-      font-size: 14px;
-      margin-top: 3px;
-      width: 18px;
-    }
-
-    .location-detail-label {
-      font-family: 'Geist Mono', monospace;
-      font-size: 10px;
-      font-weight: 600;
-      letter-spacing: 0.14em;
-      text-transform: uppercase;
-      color: var(--text-tertiary);
-      margin-bottom: 2px;
-    }
-
-    .location-detail-value {
-      font-size: 15px;
-      color: var(--text-primary);
-      font-weight: 500;
-    }
-
-    .location-detail-value.muted {
-      color: var(--text-secondary);
-      font-weight: 400;
-      font-size: 14px;
-    }
-
-    .location-actions {
-      display: flex;
-      gap: 12px;
-      flex-wrap: wrap;
-    }
-
-    .map-wrapper {
-      position: relative;
-      border-radius: var(--radius-card);
-      overflow: hidden;
-      border: 1px solid var(--border-subtle);
-      background: var(--bg-muted);
-      min-height: 460px;
-      aspect-ratio: 4 / 3;
-    }
-
-    .map-wrapper::before {
-      content: '';
-      position: absolute;
-      inset: 0;
-      background: linear-gradient(90deg, var(--bg-muted) 0%, var(--bg-subtle) 50%, var(--bg-muted) 100%);
-      background-size: 200% 100%;
-      animation: mapShimmer 1.6s infinite;
-      z-index: 0;
-      transition: opacity 400ms var(--ease-out);
-    }
-    .map-wrapper.loaded::before { opacity: 0; }
-
-    @keyframes mapShimmer {
-      0%   { background-position: 200% 0; }
-      100% { background-position: -200% 0; }
-    }
-
-    .map-wrapper iframe {
-      position: relative;
-      z-index: 1;
-      width: 100%;
-      height: 100%;
-      border: 0;
-      display: block;
-      opacity: 0;
-      transition: opacity 500ms var(--ease-out);
-    }
-    .map-wrapper.loaded iframe { opacity: 1; }
-
-    /* ============================================================
-       HOURS
-       ============================================================ */
-    .hours { padding: 96px 0; background: var(--bg-subtle); border-top: 1px solid var(--border-subtle); }
-    .hours-header { text-align: center; margin-bottom: 48px; }
-
-    .hours-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-      gap: 20px;
-    }
-
-    .hours-card {
-      background: var(--bg-elevated);
-      border: 1px solid var(--border-subtle);
-      border-radius: var(--radius-card);
-      padding: 28px 24px;
-    }
-
-    .hours-card h3 {
-      font-family: 'Geist Mono', monospace;
-      font-size: 11px;
-      font-weight: 600;
-      letter-spacing: 0.14em;
-      text-transform: uppercase;
-      color: var(--text-tertiary);
-      margin-bottom: 16px;
-    }
-
-    .hours-card p {
-      font-family: 'Playfair Display', serif;
-      font-size: 20px;
-      font-weight: 600;
-      color: var(--text-primary);
-      margin-bottom: 6px;
-    }
-
-    .hours-card span {
-      font-size: 14px;
-      color: var(--text-secondary);
-      display: block;
-    }
-
-    /* ============================================================
-       FEEDBACK
-       ============================================================ */
-    .feedback { padding: 96px 0; background: var(--bg-canvas); }
-
-    .feedback-inner {
-      max-width: 640px;
-      margin: 0 auto;
-      text-align: center;
-    }
-
-    .feedback-form {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 16px;
-      margin-top: 40px;
-      text-align: left;
-    }
-
-    .form-group {
-      display: flex;
-      flex-direction: column;
-      gap: 6px;
-    }
-    .form-group.full { grid-column: 1 / -1; }
-
-    .form-group label {
-      font-family: 'Geist Mono', monospace;
-      font-size: 11px;
-      font-weight: 500;
-      letter-spacing: 0.12em;
-      text-transform: uppercase;
-      color: var(--text-tertiary);
-    }
-
-    .form-group input,
-    .form-group select,
-    .form-group textarea {
-      padding: 12px 14px;
-      border: 1px solid var(--border-subtle);
-      border-radius: var(--radius-input);
-      font-family: inherit;
-      font-size: 15px;
-      background: var(--bg-elevated);
-      color: var(--text-primary);
-      transition: all 150ms var(--ease-out);
-      outline: none;
-      min-height: 44px;
-    }
-
-    .form-group input::placeholder,
-    .form-group textarea::placeholder { color: var(--text-tertiary); }
-
-    .form-group input:focus,
-    .form-group select:focus,
-    .form-group textarea:focus {
-      border-color: var(--accent-orange);
-      box-shadow: 0 0 0 3px color-mix(in srgb, var(--accent-orange) 18%, transparent);
-    }
-
-    .form-group textarea {
-      resize: vertical;
-      min-height: 130px;
-      line-height: 1.6;
-    }
-
-    .feedback-form .btn {
-      grid-column: 1 / -1;
-      justify-content: center;
-      margin-top: 8px;
-    }
-
-    .form-success {
-      display: none;
-      text-align: center;
-      padding: 48px 24px;
-      background: var(--bg-subtle);
-      border: 1px solid var(--border-subtle);
-      border-radius: var(--radius-card);
-      margin-top: 32px;
-    }
-    .form-success.show {
-      display: block;
-      animation: fadeUp 500ms var(--ease-out);
-    }
-
-    .form-success .success-icon {
-      width: 56px; height: 56px;
-      border-radius: 50%;
-      background: color-mix(in srgb, var(--success) 14%, transparent);
-      color: var(--success);
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 22px;
-      margin-bottom: 20px;
-    }
-
-    .form-success h3 {
-      font-family: 'Playfair Display', serif;
-      font-size: 26px;
-      font-weight: 600;
-      margin-bottom: 8px;
-      color: var(--text-primary);
-    }
-    .form-success p { color: var(--text-secondary); font-size: 15px; }
-
-    /* ============================================================
-       SOCIAL
-       ============================================================ */
-    .social { padding: 96px 0; background: var(--bg-subtle); border-top: 1px solid var(--border-subtle); text-align: center; }
-
-    .social-grid {
-      display: grid;
-      grid-template-columns: repeat(6, 1fr);
-      gap: 12px;
-      margin-top: 40px;
-    }
-
-    .social-tile {
-      aspect-ratio: 1;
-      overflow: hidden;
-      border-radius: 10px;
-      position: relative;
-      cursor: pointer;
-      background: var(--bg-muted);
-    }
-
-    .social-tile img {
-      width: 100%; height: 100%;
-      object-fit: cover;
-      transition: transform 500ms var(--ease-out);
-    }
-    .social-tile:hover img { transform: scale(1.08); }
-
-    .social-links {
-      display: flex;
-      justify-content: center;
-      gap: 12px;
-      margin-top: 32px;
-    }
-
-    .social-links a {
-      width: 44px; height: 44px;
-      border-radius: 12px;
-      background: var(--bg-elevated);
-      border: 1px solid var(--border-subtle);
-      color: var(--text-secondary);
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 16px;
-      transition: all 150ms var(--ease-out);
-    }
-    .social-links a:hover {
-      background: var(--accent-orange);
-      border-color: var(--accent-orange);
-      color: var(--accent-ink);
-      transform: translateY(-2px);
-    }
-
-    /* ============================================================
-       FOOTER
-       ============================================================ */
-    .footer {
-      background: var(--bg-canvas);
-      border-top: 1px solid var(--border-subtle);
-      padding: 64px 0 32px;
-    }
-
-    .footer-grid {
-      display: grid;
-      grid-template-columns: 2fr 1fr 1fr 1fr;
-      gap: 48px;
-      margin-bottom: 48px;
-    }
-
-    .footer-brand {
-      font-family: 'Playfair Display', serif;
-      font-size: 22px;
-      font-weight: 700;
-      color: var(--text-primary);
-      margin-bottom: 12px;
-    }
-    .footer-brand span { color: var(--accent-orange); }
-
-    .footer-tagline {
-      font-family: 'Geist Mono', monospace;
-      font-size: 12px;
-      letter-spacing: 0.12em;
-      text-transform: uppercase;
-      color: var(--text-tertiary);
-      margin-bottom: 16px;
-    }
-
-    .footer-desc {
-      font-size: 14px;
-      color: var(--text-secondary);
-      max-width: 340px;
-      line-height: 1.65;
-    }
-
-    .footer-col h4 {
-      font-family: 'Geist Mono', monospace;
-      font-size: 11px;
-      font-weight: 600;
-      letter-spacing: 0.14em;
-      text-transform: uppercase;
-      color: var(--text-tertiary);
-      margin-bottom: 20px;
-    }
-
-    .footer-col a,
-    .footer-col p {
-      display: block;
-      font-size: 14px;
-      color: var(--text-secondary);
-      margin-bottom: 10px;
-      transition: color 150ms var(--ease-out);
-    }
-    .footer-col a:hover { color: var(--text-primary); }
-
-    .footer-bottom {
-      border-top: 1px solid var(--border-subtle);
-      padding-top: 24px;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      flex-wrap: wrap;
-      gap: 16px;
-      font-family: 'Geist Mono', monospace;
-      font-size: 11px;
-      letter-spacing: 0.08em;
-      text-transform: uppercase;
-      color: var(--text-tertiary);
-    }
-
-    /* ============================================================
-       RESPONSIVE
-       ============================================================ */
-    @media (max-width: 1024px) {
-      .social-grid { grid-template-columns: repeat(3, 1fr); }
-      .footer-grid { grid-template-columns: 1fr 1fr; gap: 32px; }
-      .bento-grid { grid-template-columns: repeat(2, 1fr); }
-      .bento-card.span-2 { grid-column: span 1; }
-      .location-grid { grid-template-columns: 1fr; gap: 32px; }
-      .map-wrapper { min-height: 380px; aspect-ratio: 16 / 10; }
-      .local-grid { grid-template-columns: 1fr; gap: 40px; }
-      .local-visual { aspect-ratio: 16/10; }
-    }
-
-    @media (max-width: 900px) {
-      .nav-desktop,
-      .header-actions .btn { display: none; }
-      .mobile-toggle { display: inline-flex; }
-      .feedback-form { grid-template-columns: 1fr; }
-      .featured-content { flex-direction: column; align-items: flex-start; }
-      .featured-progress {
-        flex-direction: row;
-        gap: 16px;
-        align-self: flex-start;
-      }
-    }
-
-    @media (max-width: 768px) {
-      .container { padding: 0 16px; }
-      .social-grid { grid-template-columns: repeat(3, 1fr); }
-      .footer-grid { grid-template-columns: 1fr; gap: 32px; }
-      .menu-section,
-      .about,
-      .gallery,
-      .feedback,
-      .hours,
-      .contact,
-      .social,
-      .why-us,
-      .testimonials,
-      .location,
-      .local-area { padding: 64px 0; }
-      .bento-grid { grid-template-columns: 1fr; }
-      .trust-items { gap: 20px; font-size: 10px; }
-    }
-
-    @media (max-width: 480px) {
-      .hero-buttons { flex-direction: column; align-items: stretch; }
-      .hero-buttons .btn { width: 100%; }
-      .menu-grid { grid-template-columns: 1fr; }
-      .social-grid { grid-template-columns: repeat(2, 1fr); }
-      .location-actions { flex-direction: column; }
-      .location-actions .btn { width: 100%; }
-    }
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Aafnai Bistro | Cafe &amp; Restaurant in Sinamangal, Kathmandu</title>
+<meta name="description" content="Aafnai Bistro is a cafe and casual dining spot in Sinamangal, Kathmandu. Coffee, breakfast, lunch and dinner in a relaxed setting. Open daily 7 AM – 9:30 PM.">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+<meta name="author" content="Aafnai Bistro">
+<meta name="geo.region" content="NP-BA">
+<meta name="geo.placename" content="Sinamangal, Kathmandu">
+
+<link rel="canonical" href="https://aafnai-bistro.vercel.app/">
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Aafnai Bistro">
+<meta property="og:title" content="Aafnai Bistro | Cafe &amp; Restaurant in Sinamangal, Kathmandu">
+<meta property="og:description" content="Coffee, breakfast, lunch and dinner in a relaxed setting in Sinamangal, Kathmandu. Open daily 7 AM – 9:30 PM.">
+<meta property="og:url" content="https://aafnai-bistro.vercel.app/">
+<meta property="og:image" content="https://images.unsplash.com/photo-1554118811-1e0d58224f24?q=75&w=1200&auto=format&fit=crop">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Coffee and food served at Aafnai Bistro in Sinamangal, Kathmandu">
+<meta property="og:locale" content="en_US">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Aafnai Bistro | Cafe in Sinamangal, Kathmandu">
+<meta name="twitter:description" content="Coffee, breakfast, lunch and dinner in a relaxed setting in Sinamangal, Kathmandu. Open daily 7 AM – 9:30 PM.">
+<meta name="twitter:image" content="https://images.unsplash.com/photo-1554118811-1e0d58224f24?q=75&w=1200&auto=format&fit=crop">
+
+<meta name="theme-color" content="#FFFFFF" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0B0B0C" media="(prefers-color-scheme: dark)">
+<meta name="format-detection" content="telephone=yes">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://images.unsplash.com">
+<link rel="dns-prefetch" href="https://www.google.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+
+<style>
+:root {
+  --bg-canvas:#FFFFFF; --bg-subtle:#F6F6F7; --bg-muted:#EDEDEF; --bg-elevated:#FFFFFF;
+  --border-subtle:#E3E3E6; --border-strong:#C9C9CE;
+  --text-primary:#0B0B0C; --text-secondary:#4A4A50; --text-tertiary:#6E6E75;
+  --accent:#6F4E37; --accent-hover:#5A3E2B; --accent-soft:#F5EDE6; --accent-ink:#FFFFFF;
+  --success:#0F7B3E; --danger:#C42B1C;
+  --radius-card:12px; --radius-pill:9999px; --radius-input:8px;
+  --header-h:56px;
+  --ease-out:cubic-bezier(0.22,1,0.36,1);
+  --mono:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,monospace;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg-canvas:#0B0B0C; --bg-subtle:#141416; --bg-muted:#1C1C1F; --bg-elevated:#1A1A1D;
+    --border-subtle:#26262A; --border-strong:#3A3A40;
+    --text-primary:#F2F2F3; --text-secondary:#B8B8BE; --text-tertiary:#8A8A91;
+    --accent:#C99A6E; --accent-hover:#DBAE7E; --accent-soft:#2A150E; --accent-ink:#0B0B0C;
+  }
+}
+
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  font-family:'Inter',system-ui,-apple-system,sans-serif;
+  font-size:15px;line-height:1.5;background:var(--bg-canvas);color:var(--text-primary);
+  -webkit-font-smoothing:antialiased;overflow-x:hidden;
+}
+img{display:block;max-width:100%;height:auto;object-fit:cover}
+a{color:inherit;text-decoration:none}
+button{font-family:inherit;cursor:pointer;border:none;background:none;color:inherit}
+
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:4px}
+
+@media (prefers-reduced-motion: reduce) {
+  *,*::before,*::after{animation-duration:0.01ms!important;transition-duration:0.01ms!important;scroll-behavior:auto!important}
+}
+
+.skip-link{position:absolute;top:-100px;left:0;background:var(--accent);color:var(--accent-ink);padding:12px 20px;z-index:999;border-radius:0 0 8px 0;font-weight:600;transition:top 200ms var(--ease-out)}
+.skip-link:focus{top:0}
+
+.container{max-width:1280px;margin:0 auto;padding:0 24px}
+
+.section-label{font-family:var(--mono);font-size:11px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--text-tertiary);margin-bottom:12px}
+.section-title{font-family:'Playfair Display',serif;font-size:clamp(28px,4.2vw,44px);font-weight:600;line-height:1.1;letter-spacing:-.02em;color:var(--text-primary);margin-bottom:12px}
+.section-sub{color:var(--text-secondary);max-width:640px;font-size:16px;line-height:1.65}
+
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:12px 24px;min-height:44px;font-size:13px;font-weight:600;letter-spacing:.04em;text-transform:uppercase;border-radius:var(--radius-pill);border:1px solid transparent;transition:background 150ms var(--ease-out),border-color 150ms var(--ease-out),color 150ms var(--ease-out),transform 150ms var(--ease-out)}
+.btn-primary{background:var(--accent);color:var(--accent-ink);border-color:var(--accent)}
+.btn-primary:hover{background:var(--accent-hover);border-color:var(--accent-hover);transform:translateY(-1px)}
+.btn-outline{background:transparent;color:var(--text-primary);border-color:var(--border-strong)}
+.btn-outline:hover{background:var(--bg-muted);border-color:var(--text-secondary)}
+.btn svg{width:16px;height:16px;flex-shrink:0}
+
+.reveal{opacity:0;transform:translateY(16px);transition:opacity 500ms var(--ease-out),transform 500ms var(--ease-out)}
+.reveal.visible{opacity:1;transform:translateY(0)}
+
+.header{position:fixed;top:0;left:0;right:0;height:var(--header-h);z-index:100;background:var(--bg-canvas);border-bottom:1px solid transparent;transition:border-color 200ms var(--ease-out)}
+@media (min-width:900px){
+  .header{background:color-mix(in srgb,var(--bg-canvas) 82%,transparent);backdrop-filter:saturate(180%) blur(12px);-webkit-backdrop-filter:saturate(180%) blur(12px)}
+}
+.header.scrolled{border-bottom-color:var(--border-subtle)}
+.header .container{height:100%;display:flex;align-items:center;gap:24px}
+.logo{font-family:'Playfair Display',serif;font-size:20px;font-weight:600;color:var(--text-primary);white-space:nowrap}
+.logo span{color:var(--accent)}
+.nav-desktop{display:flex;gap:4px;font-size:14px;font-weight:500;margin-left:8px}
+.nav-desktop a{color:var(--text-secondary);padding:8px 12px;border-radius:8px;transition:color 150ms var(--ease-out),background 150ms var(--ease-out)}
+.nav-desktop a:hover{color:var(--text-primary);background:var(--bg-muted)}
+.header-spacer{flex:1}
+.header-actions{display:flex;align-items:center;gap:8px}
+.icon-btn{width:40px;height:40px;display:inline-flex;align-items:center;justify-content:center;border-radius:10px;color:var(--text-secondary);transition:background 150ms var(--ease-out),color 150ms var(--ease-out)}
+.icon-btn:hover{background:var(--bg-muted);color:var(--text-primary)}
+.icon-btn svg{width:18px;height:18px}
+.header .btn{padding:8px 16px;min-height:36px;font-size:12px}
+.mobile-toggle{display:none;width:40px;height:40px;align-items:center;justify-content:center;color:var(--text-primary);border-radius:10px}
+.mobile-toggle:hover{background:var(--bg-muted)}
+.mobile-toggle svg{width:20px;height:20px}
+
+.mobile-menu{position:fixed;inset:0;background:var(--bg-canvas);z-index:90;display:flex;flex-direction:column;justify-content:center;align-items:center;gap:8px;padding:80px 24px 40px;opacity:0;pointer-events:none;transition:opacity 220ms var(--ease-out)}
+.mobile-menu.open{opacity:1;pointer-events:all}
+.mobile-menu a{font-family:'Playfair Display',serif;font-size:26px;font-weight:600;padding:12px 20px;color:var(--text-primary);transition:color 150ms var(--ease-out)}
+.mobile-menu a:hover{color:var(--accent)}
+.mobile-menu .btn{margin-top:20px;font-family:'Inter',sans-serif;font-size:13px}
+
+.hero{position:relative;min-height:100vh;min-height:100dvh;display:flex;align-items:center;justify-content:center;text-align:center;overflow:hidden;padding:96px 24px 64px;background:#1a1512}
+.hero-bg{position:absolute;inset:0;z-index:0}
+.hero-bg img{width:100%;height:100%;object-fit:cover;object-position:center}
+.hero-overlay{position:absolute;inset:0;background:linear-gradient(180deg,rgba(11,11,12,.5) 0%,rgba(11,11,12,.78) 100%);z-index:1}
+.hero-content{position:relative;z-index:2;color:#fff;max-width:780px}
+.hero-est{font-family:var(--mono);font-size:11px;font-weight:600;letter-spacing:.28em;text-transform:uppercase;color:rgba(255,255,255,.78);margin-bottom:24px;opacity:0;animation:fadeUp 600ms 150ms var(--ease-out) forwards}
+.hero-title{font-family:'Playfair Display',serif;font-size:clamp(38px,6.5vw,72px);font-weight:600;line-height:1.05;letter-spacing:-.025em;margin-bottom:24px;opacity:0;animation:fadeUp 700ms 300ms var(--ease-out) forwards}
+.hero-title .hero-city{display:block;font-size:.42em;font-style:italic;font-weight:400;letter-spacing:0;color:rgba(255,255,255,.85);margin-top:16px}
+.hero-sub{font-size:17px;line-height:1.6;color:rgba(255,255,255,.92);max-width:620px;margin:0 auto 36px;opacity:0;animation:fadeUp 700ms 450ms var(--ease-out) forwards}
+.hero-buttons{display:flex;gap:12px;justify-content:center;flex-wrap:wrap;opacity:0;animation:fadeUp 700ms 600ms var(--ease-out) forwards}
+.hero .btn-primary{background:#fff;color:#0B0B0C;border-color:#fff}
+.hero .btn-primary:hover{background:var(--accent);border-color:var(--accent);color:#fff}
+.hero .btn-outline{background:transparent;color:#fff;border-color:rgba(255,255,255,.55)}
+.hero .btn-outline:hover{background:rgba(255,255,255,.12);border-color:#fff}
+@keyframes fadeUp{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:translateY(0)}}
+
+.trust-bar{background:var(--bg-subtle);border-bottom:1px solid var(--border-subtle);padding:20px 0}
+.trust-items{display:flex;justify-content:center;align-items:center;flex-wrap:wrap;gap:32px;font-family:var(--mono);font-size:11px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--text-secondary)}
+.trust-items span{display:inline-flex;align-items:center;gap:8px}
+.trust-items svg{color:var(--accent);width:14px;height:14px}
+
+.local-area{padding:96px 0;background:var(--bg-canvas)}
+.local-grid{display:grid;grid-template-columns:1.4fr 1fr;gap:64px;align-items:center}
+.local-content h2{margin-bottom:20px}
+.local-content p{color:var(--text-secondary);font-size:16px;line-height:1.75;margin-bottom:18px;max-width:60ch}
+.local-content p strong{color:var(--text-primary);font-weight:600}
+.local-tags{display:flex;flex-wrap:wrap;gap:8px;margin-top:28px}
+.local-tag{font-family:var(--mono);font-size:11px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--text-secondary);background:var(--bg-subtle);border:1px solid var(--border-subtle);padding:8px 14px;border-radius:var(--radius-pill)}
+.local-visual{aspect-ratio:4/5;border-radius:var(--radius-card);overflow:hidden;background:var(--bg-muted)}
+.local-visual img{width:100%;height:100%;object-fit:cover}
+
+.menu-section{padding:96px 0;background:var(--bg-subtle);border-top:1px solid var(--border-subtle);border-bottom:1px solid var(--border-subtle)}
+.menu-header{text-align:center;margin-bottom:48px}
+.menu-categories{display:flex;justify-content:center;gap:8px;flex-wrap:wrap;margin-bottom:40px}
+.category-btn{padding:10px 18px;border-radius:var(--radius-pill);font-family:var(--mono);font-size:12px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;background:transparent;border:1px solid var(--border-subtle);color:var(--text-secondary);transition:all 150ms var(--ease-out);min-height:40px}
+.category-btn:hover{border-color:var(--border-strong);color:var(--text-primary)}
+.category-btn.active{background:var(--text-primary);border-color:var(--text-primary);color:var(--bg-canvas)}
+.menu-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:20px}
+.menu-card{background:var(--bg-elevated);border:1px solid var(--border-subtle);border-radius:var(--radius-card);overflow:hidden;transition:border-color 200ms var(--ease-out),transform 200ms var(--ease-out)}
+.menu-card:hover{border-color:var(--border-strong);transform:translateY(-2px)}
+.menu-card-image{aspect-ratio:4/3;overflow:hidden;background:var(--bg-muted)}
+.menu-card-image img{width:100%;height:100%;object-fit:cover;transition:transform 400ms var(--ease-out)}
+.menu-card:hover .menu-card-image img{transform:scale(1.04)}
+.menu-card-body{padding:18px}
+.menu-card-name{font-size:16px;font-weight:600;color:var(--text-primary);margin-bottom:4px}
+.menu-card-desc{font-size:14px;color:var(--text-secondary);line-height:1.5}
+
+.why-us{padding:96px 0;background:var(--bg-canvas)}
+.why-header{text-align:center;margin-bottom:48px}
+.bento-grid{display:grid;grid-template-columns:repeat(4,1fr);grid-auto-rows:minmax(180px,auto);gap:16px}
+.bento-card{background:var(--bg-subtle);border:1px solid var(--border-subtle);border-radius:var(--radius-card);padding:28px 24px;display:flex;flex-direction:column;justify-content:space-between;transition:border-color 200ms var(--ease-out),transform 200ms var(--ease-out)}
+.bento-card:hover{border-color:var(--border-strong);transform:translateY(-2px)}
+.bento-card.span-2{grid-column:span 2}
+.bento-icon{width:40px;height:40px;border-radius:10px;background:var(--bg-canvas);border:1px solid var(--border-subtle);display:inline-flex;align-items:center;justify-content:center;color:var(--accent);margin-bottom:20px}
+.bento-icon svg{width:18px;height:18px}
+.bento-card h3{font-family:'Playfair Display',serif;font-size:20px;font-weight:600;letter-spacing:-.01em;margin-bottom:8px}
+.bento-card p{color:var(--text-secondary);font-size:14px;line-height:1.6}
+
+.review-cta{padding:96px 0;background:var(--bg-subtle);border-top:1px solid var(--border-subtle);border-bottom:1px solid var(--border-subtle)}
+.review-cta-inner{max-width:640px;margin:0 auto;text-align:center}
+.review-cta .btn{margin-top:24px}
+
+.location{padding:96px 0;background:var(--bg-canvas)}
+.location-grid{display:grid;grid-template-columns:1fr 1.4fr;gap:48px;align-items:stretch}
+.location-info{display:flex;flex-direction:column;justify-content:center}
+.location-info h2{font-family:'Playfair Display',serif;font-size:28px;font-weight:600;letter-spacing:-.01em;margin-bottom:8px}
+.location-info>p{color:var(--text-secondary);font-size:15px;margin-bottom:28px;line-height:1.65}
+.location-detail{display:flex;align-items:flex-start;gap:14px;padding:16px 0;border-top:1px solid var(--border-subtle)}
+.location-detail:last-of-type{border-bottom:1px solid var(--border-subtle);margin-bottom:28px}
+.location-detail svg{color:var(--accent);width:16px;height:16px;margin-top:3px;flex-shrink:0}
+.location-detail-label{font-family:var(--mono);font-size:10px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--text-tertiary);margin-bottom:2px}
+.location-detail-value{font-size:15px;color:var(--text-primary);font-weight:500}
+.location-detail-value.muted{color:var(--text-secondary);font-weight:400;font-size:14px}
+.location-actions{display:flex;gap:12px;flex-wrap:wrap}
+
+.map-facade{position:relative;border-radius:var(--radius-card);overflow:hidden;border:1px solid var(--border-subtle);background:var(--bg-muted);min-height:460px;aspect-ratio:4/3;cursor:pointer}
+.map-facade iframe{width:100%;height:100%;border:0;display:block}
+.map-facade-placeholder{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:12px;background:linear-gradient(135deg,var(--bg-muted) 0%,var(--bg-subtle) 100%);color:var(--text-secondary);text-align:center;padding:24px}
+.map-facade-placeholder svg{width:32px;height:32px;color:var(--accent)}
+.map-facade-placeholder strong{font-size:15px;color:var(--text-primary)}
+.map-facade-placeholder span{font-size:13px}
+
+.hours{padding:96px 0;background:var(--bg-subtle);border-top:1px solid var(--border-subtle)}
+.hours-header{text-align:center;margin-bottom:48px}
+.hours-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:20px}
+.hours-card{background:var(--bg-elevated);border:1px solid var(--border-subtle);border-radius:var(--radius-card);padding:28px 24px}
+.hours-card h3{font-family:var(--mono);font-size:11px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--text-tertiary);margin-bottom:16px}
+.hours-card p{font-family:'Playfair Display',serif;font-size:20px;font-weight:600;margin-bottom:6px}
+.hours-card span{font-size:14px;color:var(--text-secondary);display:block}
+
+.feedback{padding:96px 0;background:var(--bg-canvas)}
+.feedback-inner{max-width:640px;margin:0 auto;text-align:center}
+.feedback-form{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:40px;text-align:left}
+.form-group{display:flex;flex-direction:column;gap:6px}
+.form-group.full{grid-column:1/-1}
+.form-group label{font-family:var(--mono);font-size:11px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--text-tertiary)}
+.form-group input,.form-group select,.form-group textarea{padding:12px 14px;border:1px solid var(--border-subtle);border-radius:var(--radius-input);font-family:inherit;font-size:15px;background:var(--bg-elevated);color:var(--text-primary);transition:border-color 150ms var(--ease-out),box-shadow 150ms var(--ease-out);outline:none;min-height:44px}
+.form-group input:focus,.form-group select:focus,.form-group textarea:focus{border-color:var(--accent);box-shadow:0 0 0 3px color-mix(in srgb,var(--accent) 18%,transparent)}
+.form-group textarea{resize:vertical;min-height:130px;line-height:1.6}
+.form-error{display:none;color:var(--danger);font-size:13px;margin-top:8px}
+.form-error.show{display:block}
+.feedback-form .btn{grid-column:1/-1;justify-content:center;margin-top:8px}
+.form-success{display:none;text-align:center;padding:48px 24px;background:var(--bg-subtle);border:1px solid var(--border-subtle);border-radius:var(--radius-card);margin-top:32px}
+.form-success.show{display:block;animation:fadeUp 400ms var(--ease-out)}
+.form-success .success-icon{width:56px;height:56px;border-radius:50%;background:color-mix(in srgb,var(--success) 14%,transparent);color:var(--success);display:inline-flex;align-items:center;justify-content:center;margin-bottom:20px}
+.form-success .success-icon svg{width:24px;height:24px}
+.form-success h3{font-family:'Playfair Display',serif;font-size:26px;font-weight:600;margin-bottom:8px}
+.form-success p{color:var(--text-secondary);font-size:15px}
+
+/* Review hand-off block */
+.review-handoff{margin-top:32px;padding-top:28px;border-top:1px solid var(--border-subtle)}
+.review-handoff-title{font-family:'Playfair Display',serif;font-size:18px;font-weight:600;color:var(--text-primary);margin-bottom:6px}
+.review-handoff-text{font-size:14px;color:var(--text-secondary);margin-bottom:18px;line-height:1.55}
+.review-handoff .btn{width:100%;max-width:320px}
+
+.footer{background:var(--bg-canvas);border-top:1px solid var(--border-subtle);padding:64px 0 32px}
+.footer-grid{display:grid;grid-template-columns:2fr 1fr 1fr;gap:48px;margin-bottom:48px}
+.footer-brand{font-family:'Playfair Display',serif;font-size:22px;font-weight:600;margin-bottom:12px}
+.footer-brand span{color:var(--accent)}
+.footer-tagline{font-family:var(--mono);font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--text-tertiary);margin-bottom:16px}
+.footer-desc{font-size:14px;color:var(--text-secondary);max-width:340px;line-height:1.65}
+.footer-col h4{font-family:var(--mono);font-size:11px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--text-tertiary);margin-bottom:20px}
+.footer-col a,.footer-col p{display:block;font-size:14px;color:var(--text-secondary);margin-bottom:10px;transition:color 150ms var(--ease-out)}
+.footer-col a:hover{color:var(--text-primary)}
+.footer-bottom{border-top:1px solid var(--border-subtle);padding-top:24px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:16px;font-family:var(--mono);font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--text-tertiary)}
+
+.mobile-action-bar{position:fixed;bottom:0;left:0;right:0;z-index:95;display:none;background:var(--bg-elevated);border-top:1px solid var(--border-subtle);padding:8px 12px calc(8px + env(safe-area-inset-bottom));grid-template-columns:repeat(4,1fr);gap:4px}
+.mobile-action-bar a{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px;padding:8px 4px;font-family:var(--mono);font-size:10px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:var(--text-secondary);border-radius:8px;transition:color 150ms var(--ease-out)}
+.mobile-action-bar a:hover{color:var(--text-primary)}
+.mobile-action-bar svg{width:18px;height:18px;color:var(--accent)}
+
+@media (max-width:1024px){
+  .footer-grid{grid-template-columns:1fr 1fr;gap:32px}
+  .bento-grid{grid-template-columns:repeat(2,1fr)}
+  .bento-card.span-2{grid-column:span 1}
+  .location-grid{grid-template-columns:1fr;gap:32px}
+  .map-facade{min-height:380px;aspect-ratio:16/10}
+  .local-grid{grid-template-columns:1fr;gap:40px}
+  .local-visual{aspect-ratio:16/10}
+}
+@media (max-width:900px){
+  .nav-desktop,.header-actions .btn{display:none}
+  .mobile-toggle{display:inline-flex}
+  .feedback-form{grid-template-columns:1fr}
+  .mobile-action-bar{display:grid}
+  body{padding-bottom:72px}
+}
+@media (max-width:768px){
+  .container{padding:0 16px}
+  .footer-grid{grid-template-columns:1fr;gap:32px}
+  .menu-section,.feedback,.hours,.why-us,.location,.local-area,.review-cta{padding:64px 0}
+  .bento-grid{grid-template-columns:1fr}
+  .trust-items{gap:20px;font-size:10px}
+}
+@media (max-width:480px){
+  .hero-buttons{flex-direction:column;align-items:stretch}
+  .hero-buttons .btn{width:100%}
+  .menu-grid{grid-template-columns:1fr}
+  .location-actions{flex-direction:column}
+  .location-actions .btn{width:100%}
+}
+</style>
 </head>
 <body>
 
-  <a href="#main" class="skip-link">Skip to main content</a>
+<a href="#main" class="skip-link">Skip to main content</a>
 
-  <!-- ============================================================
-       HEADER
-       ============================================================ -->
-  <header class="header" id="header">
-    <div class="container">
-      <a href="/" class="logo" aria-label="AAFNAI BISTRO home">AAFNAI <span>·</span></a>
+<svg xmlns="http://www.w3.org/2000/svg" style="display:none" aria-hidden="true">
+  <symbol id="i-phone" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></symbol>
+  <symbol id="i-clock" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></symbol>
+  <symbol id="i-pin" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></symbol>
+  <symbol id="i-wallet" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12V7H5a2 2 0 0 1 0-4h14v4"/><path d="M3 5v14a2 2 0 0 0 2 2h16v-5"/><path d="M18 12a2 2 0 0 0 0 4h4v-4z"/></symbol>
+  <symbol id="i-menu" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></symbol>
+  <symbol id="i-close" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></symbol>
+  <symbol id="i-coffee" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 8h1a4 4 0 0 1 0 8h-1"/><path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"/><line x1="6" y1="1" x2="6" y2="4"/><line x1="10" y1="1" x2="10" y2="4"/><line x1="14" y1="1" x2="14" y2="4"/></symbol>
+  <symbol id="i-utensils" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 2v7c0 1.1.9 2 2 2h4a2 2 0 0 0 2-2V2"/><path d="M7 2v20"/><path d="M21 15V2a5 5 0 0 0-5 5v6c0 1.1.9 2 2 2h3zm0 0v7"/></symbol>
+  <symbol id="i-users" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></symbol>
+  <symbol id="i-laptop" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 16V6a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v10"/><path d="M2 18h20"/><path d="M8 22h8"/></symbol>
+  <symbol id="i-bag" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 0 1-8 0"/></symbol>
+  <symbol id="i-bike" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="5.5" cy="17.5" r="3.5"/><circle cx="18.5" cy="17.5" r="3.5"/><path d="M15 6a1 1 0 1 0 0-2 1 1 0 0 0 0 2zM12 17.5V14l-3-3 4-3 2 3h2"/></symbol>
+  <symbol id="i-directions" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="3 11 22 2 13 21 11 13 3 11"/></symbol>
+  <symbol id="i-calendar" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></symbol>
+  <symbol id="i-google" viewBox="0 0 24 24" fill="currentColor"><path d="M12.48 10.92v3.28h7.84c-.24 1.84-.853 3.187-1.787 4.133-1.147 1.147-2.933 2.4-6.053 2.4-4.827 0-8.6-3.893-8.6-8.72s3.773-8.72 8.6-8.72c2.6 0 4.507 1.027 5.907 2.347l2.307-2.307C18.747 1.44 16.133 0 12.48 0 5.867 0 .533 5.333.533 12S5.867 24 12.48 24c3.44 0 6.013-1.133 8.04-3.24 2.08-2.08 2.733-5.013 2.733-7.36 0-.493-.04-.947-.107-1.48H12.48z"/></symbol>
+  <symbol id="i-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></symbol>
+  <symbol id="i-star" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></symbol>
+</svg>
 
-      <nav class="nav-desktop" aria-label="Primary navigation">
-        <a href="#menu">Menu</a>
-        <a href="#why-us">Why Us</a>
-        <a href="#location">Visit</a>
-        <a href="#reviews">Reviews</a>
-        <a href="#feedback">Feedback</a>
-      </nav>
-
-      <div class="header-spacer"></div>
-
-      <div class="header-actions">
-        <a href="tel:+9779706666144" class="icon-btn" aria-label="Call AAFNAI BISTRO">
-          <i class="fas fa-phone"></i>
-        </a>
-        <a href="#location" class="btn btn-primary">Visit Us</a>
-        <button class="mobile-toggle" id="mobileToggle" aria-label="Open menu" aria-expanded="false">
-          <i class="fas fa-bars"></i>
-        </button>
-      </div>
+<header class="header" id="header">
+  <div class="container">
+    <a href="/" class="logo" aria-label="Aafnai Bistro home">Aafnai <span>·</span></a>
+    <nav class="nav-desktop" aria-label="Primary">
+      <a href="#about">About</a>
+      <a href="#menu">Menu</a>
+      <a href="#location">Location</a>
+      <a href="#hours">Hours</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="header-spacer"></div>
+    <div class="header-actions">
+      <a href="tel:+9779706666144" class="icon-btn" aria-label="Call Aafnai Bistro">
+        <svg><use href="#i-phone"/></svg>
+      </a>
+      <a href="#location" class="btn btn-primary">Visit Us</a>
+      <button class="mobile-toggle" id="mobileToggle" aria-label="Open menu" aria-expanded="false" aria-controls="mobileMenu">
+        <svg><use href="#i-menu"/></svg>
+      </button>
     </div>
-  </header>
-
-  <!-- Mobile drawer -->
-  <div class="mobile-menu" id="mobileMenu" role="dialog" aria-label="Mobile navigation">
-    <a href="#menu">Menu</a>
-    <a href="#why-us">Why Us</a>
-    <a href="#location">Visit</a>
-    <a href="#reviews">Reviews</a>
-    <a href="#feedback">Feedback</a>
-    <a href="#location" class="btn btn-primary">Visit Us</a>
   </div>
+</header>
 
-  <main id="main">
+<div class="mobile-menu" id="mobileMenu" role="dialog" aria-modal="true" aria-label="Mobile navigation" inert>
+  <a href="#about">About</a>
+  <a href="#menu">Menu</a>
+  <a href="#location">Location</a>
+  <a href="#hours">Hours</a>
+  <a href="#contact">Contact</a>
+  <a href="#location" class="btn btn-primary">Visit Us</a>
+</div>
 
-    <!-- ============================================================
-         HERO — H1 with location intent
-         ============================================================ -->
-    <section class="hero" id="home" aria-labelledby="hero-heading">
-      <div class="hero-bg" role="img" aria-label="AAFNAI BISTRO cafe interior in New Road, Kathmandu with coffee and food on the table"></div>
-      <div class="hero-overlay"></div>
-      <div class="hero-content">
-        <p class="hero-est">Est. 2024 · New Road, Kathmandu</p>
-        <h1 class="hero-title" id="hero-heading">
-          AAFNAI BISTRO
-          <span class="hero-city">A cafe & Asian bistro in New Road, Kathmandu</span>
-        </h1>
-        <p class="hero-sub">Great coffee. Honest food. Warm vibes. A women-owned cafe where locals, students, families and travellers come together — from breakfast to late-night bites.</p>
-        <div class="hero-buttons">
-          <a href="#menu" class="btn btn-primary">View Menu</a>
-          <a href="#location" class="btn btn-outline">Get Directions</a>
-        </div>
-      </div>
-      <div class="scroll-indicator" aria-hidden="true"><i class="fas fa-chevron-down"></i></div>
-    </section>
+<main id="main">
 
-    <!-- ============================================================
-         TRUST BAR
-         ============================================================ -->
-    <aside class="trust-bar" role="region" aria-label="Trust signals">
-      <div class="container">
-        <div class="trust-items">
-          <span><i class="fas fa-star"></i> 4.5 · 41 Google reviews</span>
-          <span><i class="fas fa-venus"></i> Women-owned</span>
-          <span><i class="fas fa-rainbow"></i> LGBTQ+ friendly</span>
-          <span><i class="fas fa-tree"></i> Outdoor seating</span>
-          <span><i class="fas fa-clock"></i> Opens 7 AM daily</span>
-        </div>
-      </div>
-    </aside>
-
-    <!-- ============================================================
-         FEATURED
-         ============================================================ -->
-    <section class="featured" id="featured" aria-label="Featured menu items">
-
-      <article class="featured-item" data-index="0">
-        <div class="featured-bg">
-          <img src="https://images.unsplash.com/photo-1541167760496-1628856ab772?q=80&w=2070&auto=format&fit=crop" alt="Fresh signature latte at AAFNAI BISTRO in New Road, Kathmandu">
-        </div>
-        <div class="featured-overlay"></div>
-        <div class="featured-content">
-          <div class="featured-text">
-            <p class="featured-category">Coffee · Signature</p>
-            <h2 class="featured-name">Signature Latte</h2>
-            <p class="featured-desc">Espresso · Silk milk · Velvet foam</p>
-            <a href="#menu" class="btn btn-primary">View on Menu</a>
-          </div>
-          <div class="featured-progress" aria-hidden="true">
-            <span class="active">01</span><span>02</span><span>03</span><span>04</span>
-          </div>
-        </div>
-      </article>
-
-      <article class="featured-item" data-index="1">
-        <div class="featured-bg">
-          <img src="https://images.unsplash.com/photo-1572442388796-11668a67e53d?q=80&w=2070&auto=format&fit=crop" alt="Classic cappuccino served at AAFNAI BISTRO cafe, Kathmandu">
-        </div>
-        <div class="featured-overlay"></div>
-        <div class="featured-content">
-          <div class="featured-text">
-            <p class="featured-category">Coffee · Classic</p>
-            <h2 class="featured-name">Classic Cappuccino</h2>
-            <p class="featured-desc">Double espresso · Steamed milk · Cocoa</p>
-            <a href="#menu" class="btn btn-primary">View on Menu</a>
-          </div>
-          <div class="featured-progress" aria-hidden="true">
-            <span>01</span><span class="active">02</span><span>03</span><span>04</span>
-          </div>
-        </div>
-      </article>
-
-      <article class="featured-item" data-index="2">
-        <div class="featured-bg">
-          <img src="https://images.unsplash.com/photo-1589302168068-964664d93dc0?q=80&w=1974&auto=format&fit=crop" alt="Chicken biryani served at AAFNAI BISTRO Asian restaurant, New Road">
-        </div>
-        <div class="featured-overlay"></div>
-        <div class="featured-content">
-          <div class="featured-text">
-            <p class="featured-category">Main · Asian</p>
-            <h2 class="featured-name">Chicken Biryani</h2>
-            <p class="featured-desc">Basmati · Whole spices · Fresh raita</p>
-            <a href="#menu" class="btn btn-primary">View on Menu</a>
-          </div>
-          <div class="featured-progress" aria-hidden="true">
-            <span>01</span><span>02</span><span class="active">03</span><span>04</span>
-          </div>
-        </div>
-      </article>
-
-      <article class="featured-item" data-index="3">
-        <div class="featured-bg">
-          <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?q=80&w=2089&auto=format&fit=crop" alt="Chocolate cake dessert at AAFNAI BISTRO cafe in Kathmandu">
-        </div>
-        <div class="featured-overlay"></div>
-        <div class="featured-content">
-          <div class="featured-text">
-            <p class="featured-category">Dessert · Cake</p>
-            <h2 class="featured-name">Chocolate Cake</h2>
-            <p class="featured-desc">Dark chocolate · Ganache · Sea salt</p>
-            <a href="#menu" class="btn btn-primary">View on Menu</a>
-          </div>
-          <div class="featured-progress" aria-hidden="true">
-            <span>01</span><span>02</span><span>03</span><span class="active">04</span>
-          </div>
-        </div>
-      </article>
-
-    </section>
-
-    <!-- ============================================================
-         WHY US
-         ============================================================ -->
-    <section class="why-us" id="why-us" aria-labelledby="why-heading">
-      <div class="container">
-        <div class="why-header reveal">
-          <p class="section-label">Why AAFNAI</p>
-          <h2 class="section-title" id="why-heading">Why Visit AAFNAI BISTRO?</h2>
-          <p class="section-sub" style="margin: 0 auto;">Whether it's a solo coffee, a family lunch, a study session or a late-night bite — we've got a seat for you.</p>
-        </div>
-
-        <div class="bento-grid reveal">
-          <div class="bento-card span-2">
-            <div>
-              <div class="bento-icon"><i class="fas fa-mug-hot"></i></div>
-              <h3>Great Coffee, Made Well</h3>
-              <p>Specialty beans, consistent extraction, and baristas who care. The kind of cup that makes you sit down and stay a while.</p>
-            </div>
-            <span class="bento-tag">Guest favourite</span>
-          </div>
-
-          <div class="bento-card">
-            <div>
-              <div class="bento-icon"><i class="fas fa-utensils"></i></div>
-              <h3>Asian Bistro Menu</h3>
-              <p>From biryani to small plates — comfort food done properly.</p>
-            </div>
-          </div>
-
-          <div class="bento-card">
-            <div>
-              <div class="bento-icon"><i class="fas fa-seedling"></i></div>
-              <h3>Vegetarian Options</h3>
-              <p>Plenty of meat-free plates, made with the same care.</p>
-            </div>
-          </div>
-
-          <div class="bento-card">
-            <div>
-              <div class="bento-icon"><i class="fas fa-tree"></i></div>
-              <h3>Outdoor Seating</h3>
-              <p>Fresh air, good light, and space to breathe.</p>
-            </div>
-          </div>
-
-          <div class="bento-card span-2">
-            <div>
-              <div class="bento-icon"><i class="fas fa-moon"></i></div>
-              <h3>Open Late, Every Day</h3>
-              <p>Coffee at 7 AM, cocktails at 9 PM. Breakfast to late-night bites — we're here for the full arc of your day.</p>
-            </div>
-            <span class="bento-tag">Open 7 AM daily</span>
-          </div>
-
-          <div class="bento-card">
-            <div>
-              <div class="bento-icon"><i class="fas fa-heart"></i></div>
-              <h3>Women-Owned</h3>
-              <p>Proudly woman-led, warmly run.</p>
-            </div>
-          </div>
-
-          <div class="bento-card">
-            <div>
-              <div class="bento-icon"><i class="fas fa-users"></i></div>
-              <h3>Everyone Welcome</h3>
-              <p>LGBTQ+ friendly, family-friendly, solo-friendly.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- ============================================================
-         MENU
-         ============================================================ -->
-    <section class="menu-section" id="menu" aria-labelledby="menu-heading">
-      <div class="container">
-        <div class="menu-header reveal">
-          <p class="section-label">Our Menu</p>
-          <h2 class="section-title" id="menu-heading">Our Menu</h2>
-          <p class="section-sub" style="margin: 0 auto;">Coffee, tea, breakfast, brunch, mains and desserts — every item made with honest ingredients. Prices available in-store.</p>
-        </div>
-
-        <div class="menu-categories reveal" id="menuCategories" role="tablist" aria-label="Menu categories">
-          <button class="category-btn active" data-category="coffee" role="tab" aria-selected="true">Coffee</button>
-          <button class="category-btn" data-category="tea" role="tab" aria-selected="false">Tea</button>
-          <button class="category-btn" data-category="breakfast" role="tab" aria-selected="false">Breakfast</button>
-          <button class="category-btn" data-category="main" role="tab" aria-selected="false">Main Meals</button>
-          <button class="category-btn" data-category="dessert" role="tab" aria-selected="false">Desserts</button>
-          <button class="category-btn" data-category="drinks" role="tab" aria-selected="false">Cold Drinks</button>
-        </div>
-
-        <div class="menu-grid" id="menuGrid" aria-live="polite"></div>
-      </div>
-    </section>
-
-    <!-- ============================================================
-         LOCAL AREA CONTENT (SEO)
-         ============================================================ -->
-    <section class="local-area" aria-labelledby="local-heading">
-      <div class="container">
-        <div class="local-grid">
-          <div class="local-content reveal">
-            <p class="section-label">A Cafe Near You</p>
-            <h2 class="section-title" id="local-heading">A Cafe Near You in New Road, Kathmandu</h2>
-
-            <p>Looking for a <strong>cafe near me</strong> in Kathmandu? AAFNAI BISTRO sits right on <strong>New Road</strong>, in the heart of the city — a short walk from major shopping streets and easy to reach by taxi, ride-share, or on foot.</p>
-
-            <p>We're a good fit whether you're searching for the <strong>best coffee shop near me</strong> for a morning flat white, a <strong>breakfast cafe</strong> for pancakes and eggs, a <strong>brunch spot</strong> on weekends, or a <strong>cozy cafe</strong> to work from with free Wi-Fi and plenty of power outlets.</p>
-
-            <p>Students looking for a <strong>cafe to study</strong>, couples looking for a <strong>relaxed cafe</strong> for a quiet dinner, families after lunch, and travellers exploring Kathmandu — everyone finds a seat here. We also have <strong>free parking</strong> and <strong>outdoor seating</strong> for those who prefer to sit outside.</p>
-
-            <p>If you're in <strong>Kathmandu</strong> and searching for a <strong>restaurant and cafe near me</strong> that serves both great coffee and proper food, we'd love to have you.</p>
-
-            <div class="local-tags" aria-label="Cafe features">
-              <span class="local-tag">Cafe near me</span>
-              <span class="local-tag">Breakfast cafe</span>
-              <span class="local-tag">Brunch cafe</span>
-              <span class="local-tag">Cozy cafe</span>
-              <span class="local-tag">Cafe with Wi-Fi</span>
-              <span class="local-tag">Cafe for students</span>
-              <span class="local-tag">Cafe for couples</span>
-              <span class="local-tag">Cafe with parking</span>
-            </div>
-          </div>
-
-          <div class="local-visual reveal">
-            <img
-              src="https://images.unsplash.com/photo-1521017432531-fbd92d768814?q=80&w=2070&auto=format&fit=crop"
-              alt="AAFNAI BISTRO cafe interior in New Road, Kathmandu with warm lighting and wooden tables"
-              loading="lazy">
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- ============================================================
-         TESTIMONIALS
-         ============================================================ -->
-    <section class="testimonials" id="reviews" aria-labelledby="reviews-heading">
-      <div class="container">
-        <div class="testimonials-header reveal">
-          <p class="section-label">Real Guests, Real Words</p>
-          <h2 class="section-title" id="reviews-heading">What Our Customers Say</h2>
-          <p class="section-sub" style="margin: 0 auto;">A 4.5-star rating from 41 Google reviews — and counting.</p>
-        </div>
-
-        <div class="testimonial-grid reveal">
-          <article class="testimonial-card">
-            <div class="testimonial-stars" aria-label="5 out of 5 stars">★★★★★</div>
-            <p class="testimonial-quote">"My all-time favorite place for coffee, other drinks, dining, and working during my free time. The food and beverages are awesome, and the staff are very polite and respectful."</p>
-            <div class="testimonial-author">
-              <div class="testimonial-avatar" aria-hidden="true">A</div>
-              <div>
-                <div class="testimonial-name">Amit Sharma</div>
-                <div class="testimonial-role">Local Guide · 27 reviews</div>
-              </div>
-            </div>
-          </article>
-
-          <article class="testimonial-card">
-            <div class="testimonial-stars" aria-label="5 out of 5 stars">★★★★★</div>
-            <p class="testimonial-quote">"The staff were polite and welcoming, always ready to assist and explain menu options. The food was served fresh, and the portions were filling. It's evident the cafe is continuously trying to improve."</p>
-            <div class="testimonial-author">
-              <div class="testimonial-avatar" aria-hidden="true">A</div>
-              <div>
-                <div class="testimonial-name">Anisha Chand</div>
-                <div class="testimonial-role">Verified review</div>
-              </div>
-            </div>
-          </article>
-
-          <article class="testimonial-card">
-            <div class="testimonial-stars" aria-label="5 out of 5 stars">★★★★★</div>
-            <p class="testimonial-quote">"Really good food, nice presentation and friendly service. The kind of cafe you keep coming back to."</p>
-            <div class="testimonial-author">
-              <div class="testimonial-avatar" aria-hidden="true">G</div>
-              <div>
-                <div class="testimonial-name">Google Guest</div>
-                <div class="testimonial-role">Verified review</div>
-              </div>
-            </div>
-          </article>
-        </div>
-
-        <div class="testimonials-cta reveal">
-          <a
-            href="https://www.google.com/maps/place/AAFNAI+BISTRO/@27.6968644,85.3504572,17z"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="btn btn-outline">
-            <i class="fab fa-google"></i> See us on Google
-          </a>
-        </div>
-      </div>
-    </section>
-
-    <!-- ============================================================
-         LOCATION + MAP
-         ============================================================ -->
-    <section class="location" id="location" aria-labelledby="location-heading">
-      <div class="container">
-        <div class="location-grid">
-
-          <div class="location-info reveal">
-            <p class="section-label">Find Us</p>
-            <h2 id="location-heading">Find AAFNAI BISTRO</h2>
-            <p>Two minutes from the heart of New Road. Come for coffee, stay for the food.</p>
-
-            <div class="location-detail">
-              <i class="fas fa-map-marker-alt"></i>
-              <div>
-                <div class="location-detail-label">Address</div>
-                <div class="location-detail-value">M9W2+P5, New Road</div>
-                <div class="location-detail-value muted">Kathmandu, Bagmati Province 44600, Nepal</div>
-              </div>
-            </div>
-
-            <div class="location-detail">
-              <i class="fas fa-clock"></i>
-              <div>
-                <div class="location-detail-label">Hours</div>
-                <div class="location-detail-value">Opens 7:00 AM · Daily</div>
-                <div class="location-detail-value muted">Breakfast · Lunch · Dinner · Late-night</div>
-              </div>
-            </div>
-
-            <div class="location-detail">
-              <i class="fas fa-phone"></i>
-              <div>
-                <div class="location-detail-label">Phone</div>
-                <a href="tel:+9779706666144" class="location-detail-value">970-6666144</a>
-              </div>
-            </div>
-
-            <div class="location-detail">
-              <i class="fas fa-globe"></i>
-              <div>
-                <div class="location-detail-label">Website</div>
-                <a href="https://restroberry.com" class="location-detail-value" rel="noopener">restroberry.com</a>
-              </div>
-            </div>
-
-            <div class="location-actions">
-              <a href="https://www.google.com/maps/place/AAFNAI+BISTRO/@27.694353,85.347231,15z/data=!4m6!3m5!1s0x39eb19007e2e35ff:0x49e96d3b479024e6!8m2!3d27.6968644!4d85.3504572!16s%2Fg%2F11vs8nksqq?hl=en&entry=ttu&g_ep=EgoyMDI2MDkzMC4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
-                <i class="fas fa-directions"></i> Get Directions
-              </a>
-              <a href="tel:+9779706666144" class="btn btn-outline">
-                <i class="fas fa-phone"></i> Call Now
-              </a>
-            </div>
-          </div>
-
-          <div class="map-wrapper reveal" id="mapWrapper">
-            <iframe
-              id="mapIframe"
-              title="Google Map showing AAFNAI BISTRO cafe location in New Road, Kathmandu"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3531.9462!2d85.3504572!3d27.6968644!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb19007e2e35ff%3A0x49e96d3b479024e6!2sAAFNAI%20BISTRO!5e0!3m2!1sen!2snp!4v1700000000000!5m2!1sen!2snp"
-              loading="lazy"
-              allowfullscreen
-              referrerpolicy="no-referrer-when-downgrade"
-              aria-label="Google Map showing AAFNAI BISTRO location in New Road, Kathmandu">
-            </iframe>
-          </div>
-
-        </div>
-      </div>
-    </section>
-
-    <!-- ============================================================
-         HOURS
-         ============================================================ -->
-    <section class="hours" id="hours" aria-labelledby="hours-heading">
-      <div class="container">
-        <div class="hours-header reveal">
-          <p class="section-label">Opening Hours</p>
-          <h2 class="section-title" id="hours-heading">Visit Us</h2>
-          <p class="section-sub" style="margin: 0 auto;">Open early, open late — seven days a week.</p>
-        </div>
-
-        <div class="hours-grid reveal">
-          <div class="hours-card">
-            <h3>Weekdays</h3>
-            <p>7:00 AM — 10:00 PM</p>
-            <span>Breakfast, lunch, dinner</span>
-          </div>
-
-          <div class="hours-card">
-            <h3>Weekends</h3>
-            <p>7:00 AM — 10:00 PM</p>
-            <span>Brunch & late-night bites</span>
-          </div>
-
-          <div class="hours-card">
-            <h3>Service Options</h3>
-            <p>Dine-in · Takeaway</p>
-            <span>Delivery · Outdoor seating</span>
-          </div>
-
-          <div class="hours-card">
-            <h3>Good to Know</h3>
-            <p>Family friendly</p>
-            <span>Free parking · Cards accepted</span>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- ============================================================
-         FEEDBACK
-         ============================================================ -->
-    <section class="feedback" id="feedback" aria-labelledby="feedback-heading">
-      <div class="container">
-        <div class="feedback-inner reveal">
-          <p class="section-label">Your Voice Matters</p>
-          <h2 class="section-title" id="feedback-heading">Share Your Feedback</h2>
-          <p class="section-sub" style="margin: 0 auto;">Tell us about your experience — we read every message and use it to improve.</p>
-
-          <form class="feedback-form" id="feedbackForm" novalidate>
-            <div class="form-group">
-              <label for="fbName">Name</label>
-              <input type="text" id="fbName" name="name" placeholder="Your name" required autocomplete="name">
-            </div>
-
-            <div class="form-group">
-              <label for="fbEmail">Email</label>
-              <input type="email" id="fbEmail" name="email" placeholder="you@example.com" required autocomplete="email">
-            </div>
-
-            <div class="form-group full">
-              <label for="fbSubject">Subject</label>
-              <select id="fbSubject" name="subject" required>
-                <option value="">Choose a topic</option>
-                <option value="food">Food &amp; Drinks</option>
-                <option value="service">Service</option>
-                <option value="ambience">Ambience</option>
-                <option value="suggestion">Suggestion</option>
-                <option value="other">Other</option>
-              </select>
-            </div>
-
-            <div class="form-group full">
-              <label for="fbMessage">Your Feedback</label>
-              <textarea id="fbMessage" name="message" placeholder="Tell us what you loved or what we can improve…" required></textarea>
-            </div>
-
-            <button type="submit" class="btn btn-primary">Submit Feedback</button>
-          </form>
-
-          <div class="form-success" id="feedbackSuccess" role="status" aria-live="polite">
-            <div class="success-icon"><i class="fas fa-heart"></i></div>
-            <h3>Thank You for Your Feedback</h3>
-            <p id="feedbackSuccessMessage">We appreciate you taking the time to share your thoughts.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- ============================================================
-         SOCIAL
-         ============================================================ -->
-    <section class="social" id="social" aria-labelledby="social-heading">
-      <div class="container">
-        <div class="reveal">
-          <p class="section-label">Follow Our Journey</p>
-          <h2 class="section-title" id="social-heading">@aafnaibistro</h2>
-        </div>
-
-        <div class="social-grid reveal">
-          <div class="social-tile"><img src="https://images.unsplash.com/photo-1541167760496-1628856ab772?q=80&w=800&auto=format&fit=crop" alt="Latte art at AAFNAI BISTRO" loading="lazy"></div>
-          <div class="social-tile"><img src="https://images.unsplash.com/photo-1589302168068-964664d93dc0?q=80&w=800&auto=format&fit=crop" alt="Biryani at AAFNAI BISTRO" loading="lazy"></div>
-          <div class="social-tile"><img src="https://images.unsplash.com/photo-1521017432531-fbd92d768814?q=80&w=800&auto=format&fit=crop" alt="Cafe interior at AAFNAI BISTRO" loading="lazy"></div>
-          <div class="social-tile"><img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?q=80&w=800&auto=format&fit=crop" alt="Chocolate cake at AAFNAI BISTRO" loading="lazy"></div>
-          <div class="social-tile"><img src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?q=80&w=800&auto=format&fit=crop" alt="Coffee cup at AAFNAI BISTRO" loading="lazy"></div>
-          <div class="social-tile"><img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?q=80&w=800&auto=format&fit=crop" alt="Coffee beans at AAFNAI BISTRO" loading="lazy"></div>
-        </div>
-
-        <div class="social-links reveal">
-          <a href="#" aria-label="Instagram" rel="noopener"><i class="fab fa-instagram"></i></a>
-          <a href="#" aria-label="TikTok" rel="noopener"><i class="fab fa-tiktok"></i></a>
-          <a href="#" aria-label="Facebook" rel="noopener"><i class="fab fa-facebook-f"></i></a>
-        </div>
-      </div>
-    </section>
-
-  </main>
-
-  <!-- ============================================================
-       FOOTER
-       ============================================================ -->
-  <footer class="footer">
-    <div class="container">
-      <div class="footer-grid">
-        <div>
-          <div class="footer-brand">AAFNAI <span>·</span></div>
-          <p class="footer-tagline">Coffee · Food · People</p>
-          <p class="footer-desc">A women-owned cafe & Asian bistro in New Road, Kathmandu. Warm, welcoming, and open to everyone — from breakfast to late-night bites.</p>
-        </div>
-
-        <nav class="footer-col" aria-label="Footer — Explore">
-          <h4>Explore</h4>
-          <a href="#menu">Menu</a>
-          <a href="#why-us">Why Us</a>
-          <a href="#reviews">Reviews</a>
-          <a href="#location">Visit</a>
-          <a href="#feedback">Feedback</a>
-        </nav>
-
-        <address class="footer-col" style="font-style: normal;">
-          <h4>Visit</h4>
-          <p>M9W2+P5, New Road</p>
-          <p>Kathmandu, Bagmati 44600</p>
-          <p>Nepal</p>
-          <a href="tel:+9779706666144">970-6666144</a>
-        </address>
-
-        <div class="footer-col">
-          <h4>Follow</h4>
-          <a href="#" rel="noopener">Instagram</a>
-          <a href="#" rel="noopener">TikTok</a>
-          <a href="#" rel="noopener">Facebook</a>
-        </div>
-      </div>
-
-      <div class="footer-bottom">
-        <p>© 2026 AAFNAI BISTRO. All rights reserved.</p>
-        <p>Women-owned · LGBTQ+ friendly · Kathmandu</p>
+  <section class="hero" id="home" aria-labelledby="hero-heading">
+    <div class="hero-bg">
+      <img
+        src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?q=75&w=1600&auto=format&fit=crop"
+        srcset="https://images.unsplash.com/photo-1554118811-1e0d58224f24?q=75&w=800&auto=format&fit=crop 800w,
+                https://images.unsplash.com/photo-1554118811-1e0d58224f24?q=75&w=1600&auto=format&fit=crop 1600w,
+                https://images.unsplash.com/photo-1554118811-1e0d58224f24?q=75&w=2000&auto=format&fit=crop 2000w"
+        sizes="100vw"
+        alt="Cafe interior at Aafnai Bistro in Sinamangal, Kathmandu"
+        width="1600" height="1067"
+        fetchpriority="high" loading="eager" decoding="async">
+    </div>
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <p class="hero-est">Sinamangal · Kathmandu</p>
+      <h1 class="hero-title" id="hero-heading">
+        Aafnai Bistro
+        <span class="hero-city">Cafe &amp; Casual Dining in Sinamangal, Kathmandu</span>
+      </h1>
+      <p class="hero-sub">Coffee, food and relaxed dining for everyday hangouts, meals and conversations in Sinamangal.</p>
+      <div class="hero-buttons">
+        <a href="#menu" class="btn btn-primary">View Menu</a>
+        <a href="#location" class="btn btn-outline">Get Directions</a>
       </div>
     </div>
-  </footer>
+  </section>
 
-  <!-- ============================================================
-       JAVASCRIPT
-       ============================================================ -->
-  <script>
-    (function () {
-      'use strict';
+  <aside class="trust-bar" role="region" aria-label="Quick information">
+    <div class="container">
+      <div class="trust-items">
+        <span><svg><use href="#i-clock"/></svg> Open Daily · 7:00 AM – 9:30 PM</span>
+        <span><svg><use href="#i-pin"/></svg> Sinamangal, Kathmandu</span>
+        <span><svg><use href="#i-wallet"/></svg> NPR 500–1,000 approx.</span>
+      </div>
+    </div>
+  </aside>
 
-      /* =========================================================
-         MENU DATA — no prices (shown in-store)
-         ========================================================= */
-      const menuItems = {
-        coffee: [
-          { name: 'Signature Latte',    desc: 'Espresso, milk, foam',          img: 'https://images.unsplash.com/photo-1541167760496-1628856ab772?q=80&w=800&auto=format&fit=crop' },
-          { name: 'Classic Cappuccino', desc: 'Espresso, steamed milk, cocoa', img: 'https://images.unsplash.com/photo-1572442388796-11668a67e53d?q=80&w=800&auto=format&fit=crop' },
-          { name: 'Americano',          desc: 'Espresso, hot water',           img: 'https://images.unsplash.com/photo-1551030173-122aabc4489c?q=80&w=800&auto=format&fit=crop' },
-          { name: 'Flat White',         desc: 'Double espresso, microfoam',    img: 'https://images.unsplash.com/photo-1577968897966-3d4325b36b61?q=80&w=800&auto=format&fit=crop' }
-        ],
-        tea: [
-          { name: 'Masala Chai',      desc: 'Spiced black tea, milk',      img: 'https://images.unsplash.com/photo-1564890369478-c89ca6d9cde9?q=80&w=800&auto=format&fit=crop' },
-          { name: 'Green Tea',        desc: 'Organic loose leaf',          img: 'https://images.unsplash.com/photo-1556881286-fc6915169721?q=80&w=800&auto=format&fit=crop' },
-          { name: 'Lemon Iced Tea',   desc: 'Black tea, lemon, ice',       img: 'https://images.unsplash.com/photo-1556679343-c7306c1976bc?q=80&w=800&auto=format&fit=crop' },
-          { name: 'Himalayan Herbal', desc: 'Local herbs, honey',          img: 'https://images.unsplash.com/photo-1576092768241-dec231879fc3?q=80&w=800&auto=format&fit=crop' }
-        ],
-        breakfast: [
-          { name: 'Avocado Toast', desc: 'Sourdough, avocado, egg',   img: 'https://images.unsplash.com/photo-1541519227354-08fa5d50c44d?q=80&w=800&auto=format&fit=crop' },
-          { name: 'Pancake Stack', desc: 'Maple syrup, berries',      img: 'https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?q=80&w=800&auto=format&fit=crop' },
-          { name: 'Egg Benedict',  desc: 'Poached eggs, hollandaise', img: 'https://images.unsplash.com/photo-1608039829572-78524f79c4c7?q=80&w=800&auto=format&fit=crop' },
-          { name: 'Granola Bowl',  desc: 'Yogurt, honey, fruits',     img: 'https://images.unsplash.com/photo-1511690743698-d9d85f2fbf38?q=80&w=800&auto=format&fit=crop' }
-        ],
-        main: [
-          { name: 'Chicken Sandwich', desc: 'Grilled chicken, avocado', img: 'https://images.unsplash.com/photo-1553909489-cd47e0907980?q=80&w=800&auto=format&fit=crop' },
-          { name: 'Chicken Biryani',  desc: 'Basmati, spices, raita',   img: 'https://images.unsplash.com/photo-1589302168068-964664d93dc0?q=80&w=800&auto=format&fit=crop' },
-          { name: 'Fish & Chips',     desc: 'Battered fish, fries',     img: 'https://images.unsplash.com/photo-1579208030886-b937da0925dc?q=80&w=800&auto=format&fit=crop' },
-          { name: 'Veggie Burger',    desc: 'Plant patty, fresh greens', img: 'https://images.unsplash.com/photo-1520072959219-c595dc870360?q=80&w=800&auto=format&fit=crop' }
-        ],
-        dessert: [
-          { name: 'Chocolate Cake', desc: 'Dark chocolate, ganache', img: 'https://images.unsplash.com/photo-1578985545062-69928b1d9587?q=80&w=800&auto=format&fit=crop' },
-          { name: 'Cheesecake',     desc: 'New York style, berry',   img: 'https://images.unsplash.com/photo-1524351199678-941a58a3df50?q=80&w=800&auto=format&fit=crop' },
-          { name: 'Tiramisu',       desc: 'Coffee, mascarpone',      img: 'https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?q=80&w=800&auto=format&fit=crop' },
-          { name: 'Croissant',      desc: 'Butter, flaky',           img: 'https://images.unsplash.com/photo-1555507036-ab1f4038808a?q=80&w=800&auto=format&fit=crop' }
-        ],
-        drinks: [
-          { name: 'Iced Latte',     desc: 'Espresso, cold milk',   img: 'https://images.unsplash.com/photo-1461023058943-07fcbe16d735?q=80&w=800&auto=format&fit=crop' },
-          { name: 'Fresh Lemonade', desc: 'Lemon, mint, soda',     img: 'https://images.unsplash.com/photo-1523677011781-c91d1bbe2f9f?q=80&w=800&auto=format&fit=crop' },
-          { name: 'Mango Smoothie', desc: 'Mango, yogurt, honey',  img: 'https://images.unsplash.com/photo-1546173159-315724a31696?q=80&w=800&auto=format&fit=crop' },
-          { name: 'Cold Brew',      desc: 'Slow-steeped, smooth',  img: 'https://images.unsplash.com/photo-1517701550927-30cf4ba1dba5?q=80&w=800&auto=format&fit=crop' }
-        ]
-      };
+  <section class="local-area" id="about" aria-labelledby="about-heading">
+    <div class="container">
+      <div class="local-grid">
+        <div class="local-content reveal">
+          <p class="section-label">About</p>
+          <h2 class="section-title" id="about-heading">A neighborhood cafe in Sinamangal</h2>
+          <p>Aafnai Bistro is a neighborhood cafe and casual dining spot in <strong>Sinamangal, Kathmandu</strong>, serving coffee, snacks and everyday meals in a relaxed setting.</p>
+          <p>Whether you are stopping by for breakfast before work, meeting a friend for lunch, or winding down with dinner, there is a seat for you. The cafe is located in Sinamangal, on the Tribhuvan International Airport side of Kathmandu — convenient for a meal or coffee before or after a flight.</p>
+          <p>Service options include dine-in, takeaway and food delivery.</p>
+          <div class="local-tags" aria-label="Cafe features">
+            <span class="local-tag">Cafe in Sinamangal</span>
+            <span class="local-tag">Casual dining</span>
+            <span class="local-tag">Coffee</span>
+            <span class="local-tag">Breakfast</span>
+            <span class="local-tag">Lunch</span>
+            <span class="local-tag">Dinner</span>
+          </div>
+        </div>
+        <div class="local-visual reveal">
+          <img
+            src="https://images.unsplash.com/photo-1521017432531-fbd92d768814?q=75&w=800&auto=format&fit=crop"
+            srcset="https://images.unsplash.com/photo-1521017432531-fbd92d768814?q=75&w=600&auto=format&fit=crop 600w,
+                    https://images.unsplash.com/photo-1521017432531-fbd92d768814?q=75&w=1000&auto=format&fit=crop 1000w"
+            sizes="(max-width: 1024px) 100vw, 40vw"
+            alt="Cafe interior at Aafnai Bistro in Sinamangal, Kathmandu"
+            width="1000" height="1250"
+            loading="lazy" decoding="async">
+        </div>
+      </div>
+    </div>
+  </section>
 
-      const escapeHtml = (s) => String(s).replace(/[&<>"']/g, c => ({
-        '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'
-      }[c]));
+  <section class="menu-section" id="menu" aria-labelledby="menu-heading">
+    <div class="container">
+      <div class="menu-header reveal">
+        <p class="section-label">Our Menu</p>
+        <h2 class="section-title" id="menu-heading">Food &amp; Drink</h2>
+        <p class="section-sub" style="margin:0 auto">Coffee, breakfast, snacks, Nepali dishes, momo, pasta, pizza and rice dishes. Prices are available in-store.</p>
+      </div>
 
-      /* =========================================================
-         HEADER — shrink on scroll
-         ========================================================= */
-      const header = document.getElementById('header');
-      const onScroll = () => header.classList.toggle('scrolled', window.scrollY > 20);
-      window.addEventListener('scroll', onScroll, { passive: true });
-      onScroll();
+      <div class="menu-categories reveal" id="menuCategories" role="tablist" aria-label="Menu categories">
+        <button class="category-btn active" data-category="coffee" role="tab" aria-selected="true" aria-controls="menuGrid">Coffee</button>
+        <button class="category-btn" data-category="breakfast" role="tab" aria-selected="false" aria-controls="menuGrid">Breakfast</button>
+        <button class="category-btn" data-category="momo" role="tab" aria-selected="false" aria-controls="menuGrid">Momo</button>
+        <button class="category-btn" data-category="main" role="tab" aria-selected="false" aria-controls="menuGrid">Main Meals</button>
+        <button class="category-btn" data-category="pasta" role="tab" aria-selected="false" aria-controls="menuGrid">Pasta &amp; Pizza</button>
+        <button class="category-btn" data-category="snacks" role="tab" aria-selected="false" aria-controls="menuGrid">Snacks</button>
+      </div>
 
-      /* =========================================================
-         MOBILE MENU
-         ========================================================= */
-      const mobileToggle = document.getElementById('mobileToggle');
-      const mobileMenu   = document.getElementById('mobileMenu');
-      let menuOpen = false;
+      <div class="menu-grid" id="menuGrid" role="tabpanel" aria-live="polite"></div>
+    </div>
+  </section>
 
-      function setMenu(open) {
-        menuOpen = open;
-        mobileMenu.classList.toggle('open', open);
-        mobileToggle.setAttribute('aria-expanded', String(open));
-        mobileToggle.innerHTML = open
-          ? '<i class="fas fa-times"></i>'
-          : '<i class="fas fa-bars"></i>';
-        document.body.style.overflow = open ? 'hidden' : '';
-      }
+  <section class="why-us" id="why-us" aria-labelledby="why-heading">
+    <div class="container">
+      <div class="why-header reveal">
+        <p class="section-label">Why Visit</p>
+        <h2 class="section-title" id="why-heading">Why visit Aafnai Bistro</h2>
+      </div>
 
-      mobileToggle.addEventListener('click', () => setMenu(!menuOpen));
-      mobileMenu.querySelectorAll('a').forEach(a => a.addEventListener('click', () => setMenu(false)));
-      document.addEventListener('keydown', e => {
-        if (e.key === 'Escape' && menuOpen) setMenu(false);
-      });
+      <div class="bento-grid reveal">
+        <div class="bento-card span-2">
+          <div>
+            <div class="bento-icon"><svg><use href="#i-coffee"/></svg></div>
+            <h3>Coffee, Made Well</h3>
+            <p>Freshly brewed coffee and tea, served the way you like it.</p>
+          </div>
+        </div>
+        <div class="bento-card">
+          <div>
+            <div class="bento-icon"><svg><use href="#i-utensils"/></svg></div>
+            <h3>Everyday Meals</h3>
+            <p>Breakfast, lunch and dinner in a casual setting.</p>
+          </div>
+        </div>
+        <div class="bento-card">
+          <div>
+            <div class="bento-icon"><svg><use href="#i-users"/></svg></div>
+            <h3>Group Hangouts</h3>
+            <p>Space for friends, families and small groups.</p>
+          </div>
+        </div>
+        <div class="bento-card">
+          <div>
+            <div class="bento-icon"><svg><use href="#i-laptop"/></svg></div>
+            <h3>Work-Friendly</h3>
+            <p>A calm spot to sit with a coffee and get things done.</p>
+          </div>
+        </div>
+        <div class="bento-card">
+          <div>
+            <div class="bento-icon"><svg><use href="#i-bag"/></svg></div>
+            <h3>Takeaway</h3>
+            <p>Grab your order to go when you're short on time.</p>
+          </div>
+        </div>
+        <div class="bento-card">
+          <div>
+            <div class="bento-icon"><svg><use href="#i-bike"/></svg></div>
+            <h3>Food Delivery</h3>
+            <p>Delivery available for orders around the area.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-      /* =========================================================
-         MENU RENDER
-         ========================================================= */
-      const menuGrid     = document.getElementById('menuGrid');
-      const categoryBtns = document.querySelectorAll('.category-btn');
+  <section class="review-cta" aria-labelledby="review-cta-heading">
+    <div class="container">
+      <div class="review-cta-inner reveal">
+        <p class="section-label">Your Feedback</p>
+        <h2 class="section-title" id="review-cta-heading">Enjoyed your visit?</h2>
+        <p class="section-sub" style="margin:0 auto">Share your experience on Google — your feedback helps us improve.</p>
+        <a href="https://search.google.com/local/writereview?placeid=ChIJ_-UufgAZ6zkR5iSQhztt6Uk" target="_blank" rel="noopener noreferrer" class="btn btn-outline">
+          <svg><use href="#i-google"/></svg> Write a Google Review
+        </a>
+      </div>
+    </div>
+  </section>
 
-      function renderMenu(category) {
-        const items = menuItems[category] || [];
-        if (!items.length) {
-          menuGrid.innerHTML = '<div class="menu-empty">No items in this category yet.</div>';
-          return;
-        }
-        menuGrid.innerHTML = items.map(item => `
-          <article class="menu-card">
-            <div class="menu-card-image">
-              <img src="${item.img}" alt="${escapeHtml(item.name)} at AAFNAI BISTRO cafe in New Road, Kathmandu" loading="lazy">
+  <section class="location" id="location" aria-labelledby="location-heading">
+    <div class="container">
+      <div class="location-grid">
+        <div class="location-info reveal">
+          <p class="section-label">Find Us</p>
+          <h2 id="location-heading">Location</h2>
+          <p>Aafnai Bistro is located in Sinamangal, Kathmandu, Nepal.</p>
+
+          <div class="location-detail">
+            <svg><use href="#i-pin"/></svg>
+            <div>
+              <div class="location-detail-label">Address</div>
+              <div class="location-detail-value">Sinamangal</div>
+              <div class="location-detail-value muted">Kathmandu, Nepal</div>
             </div>
-            <div class="menu-card-body">
-              <h3 class="menu-card-name">${escapeHtml(item.name)}</h3>
-              <p class="menu-card-desc">${escapeHtml(item.desc)}</p>
-              <div class="menu-card-footer">
-                <button class="menu-card-add" aria-label="Add ${escapeHtml(item.name)} to order">
-                  <i class="fas fa-plus"></i>
-                </button>
-              </div>
+          </div>
+          <div class="location-detail">
+            <svg><use href="#i-clock"/></svg>
+            <div>
+              <div class="location-detail-label">Hours</div>
+              <div class="location-detail-value">7:00 AM – 9:30 PM</div>
+              <div class="location-detail-value muted">Every day</div>
             </div>
-          </article>
-        `).join('');
-      }
+          </div>
+          <div class="location-detail">
+            <svg><use href="#i-phone"/></svg>
+            <div>
+              <div class="location-detail-label">Phone</div>
+              <a href="tel:+9779706666144" class="location-detail-value">+977 970-6666144</a>
+            </div>
+          </div>
+          <div class="location-actions">
+            <a href="https://www.google.com/maps/place/aafnai+bistro/data=!4m2!3m1!1s0x39eb19007e2e35ff:0x49e96d3b479024e6" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+              <svg><use href="#i-directions"/></svg> Get Directions
+            </a>
+            <a href="tel:+9779706666144" class="btn btn-outline">
+              <svg><use href="#i-phone"/></svg> Call Now
+            </a>
+          </div>
+        </div>
 
-      categoryBtns.forEach(btn => {
-        btn.addEventListener('click', () => {
-          categoryBtns.forEach(b => {
-            b.classList.remove('active');
-            b.setAttribute('aria-selected', 'false');
-          });
-          btn.classList.add('active');
-          btn.setAttribute('aria-selected', 'true');
-          renderMenu(btn.dataset.category);
-        });
-      });
+        <div class="map-facade reveal" id="mapFacade" role="button" tabindex="0" aria-label="Load interactive map of Aafnai Bistro in Sinamangal, Kathmandu">
+          <div class="map-facade-placeholder">
+            <svg><use href="#i-pin"/></svg>
+            <strong>View location on map</strong>
+            <span>Tap to load Google Maps</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-      renderMenu('coffee');
+  <section class="hours" id="hours" aria-labelledby="hours-heading">
+    <div class="container">
+      <div class="hours-header reveal">
+        <p class="section-label">Opening Hours</p>
+        <h2 class="section-title" id="hours-heading">Visit Us</h2>
+        <p class="section-sub" style="margin:0 auto">Open every day, from morning to evening.</p>
+      </div>
 
-      /* =========================================================
-         FEATURED PROGRESS
-         ========================================================= */
-      const featuredItems = document.querySelectorAll('.featured-item');
-      const progressSpans = document.querySelectorAll('.featured-progress span');
+      <div class="hours-grid reveal">
+        <div class="hours-card">
+          <h3>Every Day</h3>
+          <p>7:00 AM – 9:30 PM</p>
+          <span>Breakfast · Lunch · Dinner</span>
+        </div>
+        <div class="hours-card">
+          <h3>Service Options</h3>
+          <p>Dine-in · Takeaway</p>
+          <span>Food delivery available</span>
+        </div>
+        <div class="hours-card">
+          <h3>Reservations</h3>
+          <p>Booking available</p>
+          <span>Call ahead for larger groups</span>
+        </div>
+        <div class="hours-card">
+          <h3>Price Range</h3>
+          <p>NPR 500–1,000</p>
+          <span>Approximate, per person</span>
+        </div>
+      </div>
+    </div>
+  </section>
 
-      if (featuredItems.length && 'IntersectionObserver' in window) {
-        const featuredObs = new IntersectionObserver(entries => {
-          entries.forEach(entry => {
-            if (entry.isIntersecting) {
-              const idx = parseInt(entry.target.dataset.index, 10);
-              progressSpans.forEach((s, i) => s.classList.toggle('active', i === idx));
-            }
-          });
-        }, { threshold: 0.5 });
-        featuredItems.forEach(el => featuredObs.observe(el));
-      }
+  <section class="feedback" id="contact" aria-labelledby="contact-heading">
+    <div class="container">
+      <div class="feedback-inner reveal">
+        <p class="section-label">Contact</p>
+        <h2 class="section-title" id="contact-heading">Get in Touch</h2>
+        <p class="section-sub" style="margin:0 auto">Send a question, feedback or a booking request.</p>
 
-      /* =========================================================
-         SMOOTH MAP
-         ========================================================= */
-      const mapWrapper = document.getElementById('mapWrapper');
-      const mapIframe  = document.getElementById('mapIframe');
+        <form class="feedback-form" id="feedbackForm" novalidate>
+          <div class="form-group">
+            <label for="fbName">Name</label>
+            <input type="text" id="fbName" name="name" placeholder="Your name" required autocomplete="name">
+          </div>
+          <div class="form-group">
+            <label for="fbEmail">Email</label>
+            <input type="email" id="fbEmail" name="email" placeholder="you@example.com" required autocomplete="email">
+          </div>
+          <div class="form-group full">
+            <label for="fbSubject">Subject</label>
+            <select id="fbSubject" name="subject" required>
+              <option value="">Choose a topic</option>
+              <option value="booking">Booking</option>
+              <option value="food">Food &amp; Drinks</option>
+              <option value="service">Service</option>
+              <option value="suggestion">Suggestion</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+          <div class="form-group full">
+            <label for="fbMessage">Message</label>
+            <textarea id="fbMessage" name="message" placeholder="Write your message…" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Send Message</button>
+          <p class="form-error" id="formError" role="alert"></p>
+        </form>
 
-      if (mapIframe && mapWrapper) {
-        if (mapIframe.complete || mapIframe.readyState === 'complete') {
-          setTimeout(() => mapWrapper.classList.add('loaded'), 100);
-        }
-        mapIframe.addEventListener('load', () => {
-          setTimeout(() => mapWrapper.classList.add('loaded'), 150);
-        });
-      }
+        <div class="form-success" id="feedbackSuccess" role="status" aria-live="polite">
+          <div class="success-icon"><svg><use href="#i-check"/></svg></div>
+          <h3>Thank You</h3>
+          <p id="feedbackSuccessMessage">We appreciate you taking the time to write to us.</p>
 
-      /* =========================================================
-         FEEDBACK FORM
-         ========================================================= */
-      const feedbackForm       = document.getElementById('feedbackForm');
-      const feedbackSuccess    = document.getElementById('feedbackSuccess');
-      const feedbackSuccessMsg = document.getElementById('feedbackSuccessMessage');
+          <div class="review-handoff">
+            <p class="review-handoff-title">Enjoyed your visit?</p>
+            <p class="review-handoff-text">It takes 30 seconds to share your experience on Google. Your review helps others find us.</p>
+            <a
+              id="googleReviewBtn"
+              href="https://search.google.com/local/writereview?placeid=ChIJ_-UufgAZ6zkR5iSQhztt6Uk"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="btn btn-primary">
+              <svg><use href="#i-google"/></svg> Post a Google Review
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-      const isEmail = (v) => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(v);
+</main>
 
-      feedbackForm.addEventListener('submit', e => {
-        e.preventDefault();
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-brand">Aafnai <span>·</span></div>
+        <p class="footer-tagline">Coffee · Food · People</p>
+        <p class="footer-desc">A cafe and casual dining spot in Sinamangal, Kathmandu. Coffee, breakfast, lunch and dinner in a relaxed setting.</p>
+      </div>
+      <nav class="footer-col" aria-label="Footer navigation">
+        <h4>Explore</h4>
+        <a href="#about">About</a>
+        <a href="#menu">Menu</a>
+        <a href="#location">Location</a>
+        <a href="#hours">Hours</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <address class="footer-col" style="font-style:normal">
+        <h4>Visit</h4>
+        <p>Sinamangal</p>
+        <p>Kathmandu, Nepal</p>
+        <a href="tel:+9779706666144">+977 970-6666144</a>
+        <p>Open daily 7:00 AM – 9:30 PM</p>
+      </address>
+    </div>
+    <div class="footer-bottom">
+      <p>© <span id="year"></span> Aafnai Bistro. All rights reserved.</p>
+      <p>Sinamangal · Kathmandu · Nepal</p>
+    </div>
+  </div>
+</footer>
 
-        const name    = document.getElementById('fbName').value.trim();
-        const email   = document.getElementById('fbEmail').value.trim();
-        const subject = document.getElementById('fbSubject').value;
-        const message = document.getElementById('fbMessage').value.trim();
+<nav class="mobile-action-bar" aria-label="Quick actions">
+  <a href="tel:+9779706666144">
+    <svg><use href="#i-phone"/></svg>
+    <span>Call</span>
+  </a>
+  <a href="https://www.google.com/maps/place/aafnai+bistro/data=!4m2!3m1!1s0x39eb19007e2e35ff:0x49e96d3b479024e6" target="_blank" rel="noopener noreferrer">
+    <svg><use href="#i-directions"/></svg>
+    <span>Directions</span>
+  </a>
+  <a href="#menu">
+    <svg><use href="#i-utensils"/></svg>
+    <span>Menu</span>
+  </a>
+  <a href="#contact">
+    <svg><use href="#i-calendar"/></svg>
+    <span>Book</span>
+  </a>
+</nav>
 
-        if (!name || !email || !subject || !message) {
-          alert('Please fill in all fields.');
-          return;
-        }
-        if (!isEmail(email)) {
-          alert('Please enter a valid email address.');
-          return;
-        }
+<script>
+(function(){
+  'use strict';
 
-        feedbackSuccessMsg.textContent =
-          'Thank you, ' + name + '. We appreciate you taking the time to share your thoughts.';
-        feedbackForm.style.display = 'none';
-        feedbackSuccess.classList.add('show');
-        feedbackSuccess.scrollIntoView({ behavior: 'smooth', block: 'center' });
-      });
-
-      /* =========================================================
-         SCROLL REVEAL
-         ========================================================= */
-      const revealEls = document.querySelectorAll('.reveal');
-      if ('IntersectionObserver' in window) {
-        const obs = new IntersectionObserver(entries => {
-          entries.forEach(entry => {
-            if (entry.isIntersecting) {
-              entry.target.classList.add('visible');
-              obs.unobserve(entry.target);
-            }
-          });
-        }, { threshold: 0.08, rootMargin: '0px 0px -40px 0px' });
-        revealEls.forEach(el => obs.observe(el));
-      } else {
-        revealEls.forEach(el => el.classList.add('visible'));
-      }
-
-      /* =========================================================
-         SMOOTH ANCHOR NAVIGATION
-         ========================================================= */
-      document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-        anchor.addEventListener('click', e => {
-          const href = anchor.getAttribute('href');
-          if (!href || href === '#') return;
-          const target = document.querySelector(href);
-          if (!target) return;
-          e.preventDefault();
-          const offset = 72;
-          const top = target.getBoundingClientRect().top + window.pageYOffset - offset;
-          window.scrollTo({ top, behavior: 'smooth' });
-        });
-      });
-
-      /* =========================================================
-         SCROLL INDICATOR FADE
-         ========================================================= */
-      const scrollIndicator = document.querySelector('.scroll-indicator');
-      if (scrollIndicator) {
-        window.addEventListener('scroll', () => {
-          scrollIndicator.style.opacity = window.scrollY > 100 ? '0' : '1';
-        }, { passive: true });
-      }
-
-    })();
-  </script>
-
-  <!-- ============================================================
-       STRUCTURED DATA — LocalBusiness (CafeOrCoffeeShop) + WebSite
-       ============================================================ -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "CafeOrCoffeeShop",
-        "@id": "https://restroberry.com/#cafe",
-        "name": "AAFNAI BISTRO",
-        "alternateName": "Aafnai Bistro",
-        "description": "Women-owned cafe and Asian bistro in New Road, Kathmandu serving specialty coffee, breakfast, brunch, Asian mains and desserts. Dine-in, takeaway and delivery available.",
-        "url": "https://restroberry.com/",
-        "image": [
-          "https://images.unsplash.com/photo-1554118811-1e0d58224f24?q=80&w=2070&auto=format&fit=crop",
-          "https://images.unsplash.com/photo-1541167760496-1628856ab772?q=80&w=2070&auto=format&fit=crop"
-        ],
-        "telephone": "+977-970-6666144",
-        "priceRange": "Rs 1–2,000",
-        "servesCuisine": ["Coffee", "Asian", "Breakfast", "Brunch", "Desserts", "Vegetarian"],
-        "currenciesAccepted": "NPR",
-        "paymentAccepted": "Cash, Credit Card, Debit Card",
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "M9W2+P5, New Road",
-          "addressLocality": "Kathmandu",
-          "addressRegion": "Bagmati Province",
-          "postalCode": "44600",
-          "addressCountry": "NP"
-        },
-        "geo": {
-          "@type": "GeoCoordinates",
-          "latitude": 27.6968644,
-          "longitude": 85.3504572
-        },
-        "hasMap": "https://www.google.com/maps/place/AAFNAI+BISTRO/@27.6968644,85.3504572,17z",
-        "openingHoursSpecification": [
-          {
-            "@type": "OpeningHoursSpecification",
-            "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
-            "opens": "07:00",
-            "closes": "22:00"
-          }
-        ],
-        "acceptsReservations": "True",
-        "amenityFeature": [
-          { "@type": "LocationFeatureSpecification", "name": "Outdoor Seating",       "value": true },
-          { "@type": "LocationFeatureSpecification", "name": "Free Parking",          "value": true },
-          { "@type": "LocationFeatureSpecification", "name": "Delivery",              "value": true },
-          { "@type": "LocationFeatureSpecification", "name": "Takeaway",              "value": true },
-          { "@type": "LocationFeatureSpecification", "name": "Dine-in",               "value": true },
-          { "@type": "LocationFeatureSpecification", "name": "Vegetarian Options",    "value": true },
-          { "@type": "LocationFeatureSpecification", "name": "Good for Kids",         "value": true },
-          { "@type": "LocationFeatureSpecification", "name": "Bar on Site",           "value": true }
-        ],
-        "publicAccess": true,
-        "isAccessibleForFree": false,
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "4.5",
-          "reviewCount": "41",
-          "bestRating": "5",
-          "worstRating": "1"
-        },
-        "sameAs": [
-          "https://www.google.com/maps/place/AAFNAI+BISTRO/@27.694353,85.347231,15z/data=!4m6!3m5!1s0x39eb19007e2e35ff:0x49e96d3b479024e6!8m2!3d27.6968644!4d85.3504572!16s%2Fg%2F11vs8nksqq?hl=en&entry=ttu&g_ep=EgoyMDI2MDkzMC4wIKXMDSoASAFQAw%3D%3D"
-        ],
-        "hasMenu": {
-          "@type": "Menu",
-          "name": "AAFNAI BISTRO Menu",
-          "url": "https://restroberry.com/#menu",
-          "hasMenuSection": [
-            { "@type": "MenuSection", "name": "Coffee",       "description": "Specialty espresso drinks" },
-            { "@type": "MenuSection", "name": "Tea",          "description": "Masala chai, green tea and herbal teas" },
-            { "@type": "MenuSection", "name": "Breakfast",    "description": "Served all morning" },
-            { "@type": "MenuSection", "name": "Main Meals",   "description": "Asian bistro mains" },
-            { "@type": "MenuSection", "name": "Desserts",     "description": "Cakes, pastries and sweets" },
-            { "@type": "MenuSection", "name": "Cold Drinks",  "description": "Iced drinks and smoothies" }
-          ]
-        }
-      },
-      {
-        "@type": "WebSite",
-        "@id": "https://restroberry.com/#website",
-        "url": "https://restroberry.com/",
-        "name": "AAFNAI BISTRO",
-        "publisher": { "@id": "https://restroberry.com/#cafe" },
-        "inLanguage": "en"
-      }
+  const menuItems = {
+    coffee: [
+      { name:'Espresso', desc:'Freshly pulled single shot', img:'https://images.unsplash.com/photo-1510707577719-ae7c14805e3a' },
+      { name:'Cappuccino', desc:'Espresso with steamed milk', img:'https://images.unsplash.com/photo-1572442388796-11668a67e53d' },
+      { name:'Latte', desc:'Smooth espresso and milk', img:'https://images.unsplash.com/photo-1541167760496-1628856ab772' },
+      { name:'Americano', desc:'Espresso with hot water', img:'https://images.unsplash.com/photo-1551030173-122aabc4489c' }
+    ],
+    breakfast: [
+      { name:'Breakfast Plate', desc:'Eggs, toast and sides', img:'https://images.unsplash.com/photo-1533089860892-a7c6f0a88666' },
+      { name:'Toast & Eggs', desc:'Simple, warm, filling', img:'https://images.unsplash.com/photo-1525351484163-7529414344d8' },
+      { name:'Pancakes', desc:'Served with syrup', img:'https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445' }
+    ],
+    momo: [
+      { name:'Steamed Momo', desc:'Classic Nepali dumplings', img:'https://images.unsplash.com/photo-1534422298391-e4f8c172dddb' },
+      { name:'Fried Momo', desc:'Crisp outside, juicy inside', img:'https://images.unsplash.com/photo-1626776876729-bab4369a5a5a' },
+      { name:'Chicken Momo', desc:'Chicken filling with achar', img:'https://images.unsplash.com/photo-1496116218417-1a781b1c416c' }
+    ],
+    main: [
+      { name:'Chicken Rice', desc:'Rice with seasoned chicken', img:'https://images.unsplash.com/photo-1512058564366-18510be2db19' },
+      { name:'Fried Rice', desc:'Wok-cooked rice and vegetables', img:'https://images.unsplash.com/photo-1603133872878-684f208fb84b' },
+      { name:'Chicken Roll', desc:'Wrapped and grilled', img:'https://images.unsplash.com/photo-1626700051175-6818013e1d4f' }
+    ],
+    pasta: [
+      { name:'Pasta', desc:'Served with a simple sauce', img:'https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9' },
+      { name:'Pizza', desc:'Thin crust, freshly baked', img:'https://images.unsplash.com/photo-1565299624946-b28f40a0ae38' }
+    ],
+    snacks: [
+      { name:'French Fries', desc:'Crisp and lightly salted', img:'https://images.unsplash.com/photo-1573080496219-bb080dd4f877' },
+      { name:'Chicken Snacks', desc:'Bite-sized and warm', img:'https://images.unsplash.com/photo-1562967914-608f82629710' },
+      { name:'Sandwich', desc:'Simple, fresh and filling', img:'https://images.unsplash.com/photo-1528735602780-2552fd46c7af' }
     ]
+  };
+
+  const escapeHtml = s => String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+
+  const header = document.getElementById('header');
+  let ticking = false;
+  const onScroll = () => {
+    if (ticking) return;
+    ticking = true;
+    requestAnimationFrame(() => {
+      header.classList.toggle('scrolled', window.scrollY > 20);
+      ticking = false;
+    });
+  };
+  window.addEventListener('scroll', onScroll, { passive:true });
+  onScroll();
+
+  const toggle = document.getElementById('mobileToggle');
+  const menu   = document.getElementById('mobileMenu');
+  let scrollY = 0;
+
+  function setMenu(open){
+    menu.classList.toggle('open', open);
+    toggle.setAttribute('aria-expanded', String(open));
+    menu.toggleAttribute('inert', !open);
+    toggle.innerHTML = open ? '<svg><use href="#i-close"/></svg>' : '<svg><use href="#i-menu"/></svg>';
+    if (open){
+      scrollY = window.scrollY;
+      document.body.style.position = 'fixed';
+      document.body.style.top = `-${scrollY}px`;
+      document.body.style.width = '100%';
+    } else {
+      document.body.style.position = '';
+      document.body.style.top = '';
+      document.body.style.width = '';
+      window.scrollTo(0, scrollY);
+    }
   }
-  </script>
+
+  toggle.addEventListener('click', () => setMenu(!menu.classList.contains('open')));
+  menu.querySelectorAll('a').forEach(a => a.addEventListener('click', () => setMenu(false)));
+  document.addEventListener('keydown', e => {
+    if (e.key === 'Escape' && menu.classList.contains('open')) setMenu(false);
+  });
+
+  const grid = document.getElementById('menuGrid');
+  const catBtns = document.querySelectorAll('.category-btn');
+
+  function renderMenu(cat){
+    const items = menuItems[cat] || [];
+    grid.innerHTML = items.map(item => {
+      const base = item.img + '?q=75&auto=format&fit=crop';
+      return `<article class="menu-card">
+        <div class="menu-card-image">
+          <img src="${base}&w=600" srcset="${base}&w=400 400w, ${base}&w=800 800w"
+               sizes="(max-width:480px) 100vw, (max-width:1024px) 45vw, 280px"
+               alt="${escapeHtml(item.name)} at Aafnai Bistro in Sinamangal, Kathmandu"
+               width="800" height="600" loading="lazy" decoding="async">
+        </div>
+        <div class="menu-card-body">
+          <h3 class="menu-card-name">${escapeHtml(item.name)}</h3>
+          <p class="menu-card-desc">${escapeHtml(item.desc)}</p>
+        </div>
+      </article>`;
+    }).join('');
+  }
+
+  catBtns.forEach(btn => btn.addEventListener('click', () => {
+    catBtns.forEach(b => { b.classList.remove('active'); b.setAttribute('aria-selected','false'); });
+    btn.classList.add('active');
+    btn.setAttribute('aria-selected','true');
+    renderMenu(btn.dataset.category);
+  }));
+  renderMenu('coffee');
+
+  const facade = document.getElementById('mapFacade');
+  function loadMap(){
+    if (facade.dataset.loaded) return;
+    facade.dataset.loaded = '1';
+    facade.innerHTML = '<iframe title="Google Map showing Aafnai Bistro in Sinamangal, Kathmandu" src="https://www.google.com/maps?q=Aafnai+Bistro+Sinamangal+Kathmandu&output=embed" loading="lazy" allowfullscreen referrerpolicy="no-referrer-when-downgrade"></iframe>';
+  }
+  facade.addEventListener('click', loadMap);
+  facade.addEventListener('keydown', e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); loadMap(); } });
+
+  const form      = document.getElementById('feedbackForm');
+  const success   = document.getElementById('feedbackSuccess');
+  const successMsg= document.getElementById('feedbackSuccessMessage');
+  const errorEl   = document.getElementById('formError');
+  const isEmail   = v => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(v);
+
+  form.addEventListener('submit', e => {
+    e.preventDefault();
+    errorEl.classList.remove('show');
+
+    const name    = document.getElementById('fbName').value.trim();
+    const email   = document.getElementById('fbEmail').value.trim();
+    const subject = document.getElementById('fbSubject').value;
+    const message = document.getElementById('fbMessage').value.trim();
+
+    if (!name || !email || !subject || !message) {
+      errorEl.textContent = 'Please fill in all fields.';
+      errorEl.classList.add('show');
+      return;
+    }
+    if (!isEmail(email)) {
+      errorEl.textContent = 'Please enter a valid email address.';
+      errorEl.classList.add('show');
+      return;
+    }
+
+    successMsg.textContent = `Thank you, ${name}. We appreciate you taking the time to write to us.`;
+    form.style.display = 'none';
+    success.classList.add('show');
+    success.scrollIntoView({ behavior:'smooth', block:'center' });
+  });
+
+  const reveals = document.querySelectorAll('.reveal');
+  if ('IntersectionObserver' in window){
+    const obs = new IntersectionObserver(entries => {
+      entries.forEach(en => {
+        if (en.isIntersecting){ en.target.classList.add('visible'); obs.unobserve(en.target); }
+      });
+    }, { threshold:0.08, rootMargin:'0px 0px -40px 0px' });
+    reveals.forEach(el => obs.observe(el));
+  } else {
+    reveals.forEach(el => el.classList.add('visible'));
+  }
+
+  document.addEventListener('click', e => {
+    const a = e.target.closest('a[href^="#"]');
+    if (!a) return;
+    const href = a.getAttribute('href');
+    if (!href || href === '#') return;
+    const target = document.querySelector(href);
+    if (!target) return;
+    e.preventDefault();
+    const top = target.getBoundingClientRect().top + window.pageYOffset - 72;
+    window.scrollTo({ top, behavior:'smooth' });
+  });
+
+  const y = document.getElementById('year');
+  if (y) y.textContent = new Date().getFullYear();
+})();
+</script>
+
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"CafeOrCoffeeShop",
+  "name":"Aafnai Bistro",
+  "url":"https://aafnai-bistro.vercel.app/",
+  "telephone":"+977-970-6666144",
+  "address":{"@type":"PostalAddress","addressLocality":"Sinamangal","addressRegion":"Kathmandu","addressCountry":"NP"},
+  "openingHoursSpecification":{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],"opens":"07:00","closes":"21:30"},
+  "priceRange":"NPR 500–1,000",
+  "servesCuisine":["Cafe","Nepalese","Asian"]
+}
+</script>
 </body>
-</html> Hmm. Hmm. I guess it is now.
-Mm.
-Mm.
-Mm.
-Mm.
-Mm. Just to say, my finance is not, it's not, it's not, it's not, my secondary is not very good.
-I just got a question. I have to keep finance money. Just to say, my finance is not... Yeah, yeah, yeah. Yeah, Yeah, no, that's the same. That's the same. Yeah, that's the same. Just, just, just, just, just, just, just, just for the project we're like, oh.
-Yeah, project we're like, the thing, so yeah, we are very much like we are, yeah.
-Yeah, like this one, just, just, it's money, expand, borrow money, though.
-Yeah, yeah, like a moment. Yeah, that's the... Yeah, buy in, get it started. Not this, yeah, you know, I'm in, buy in. Email address, something like that, you know, something like that, you know. So, I need to put like a certificate. It's like, yeah, yeah, that's the dashboard where, you know, the sales, my guy, you know, customer name, key, email, key, and phone number, key, and, you know, product, yeah, it's a big... And you know, expense, I'm going to say. expense, yeah, you know, the key, yeah, yeah, yeah, yeah. I mean, it's a small business. It's like, you know, you know, the whole thing, you know, literally. I don't know. Is he going to be a general partner?
-A general partner? Yeah.
-Yeah.
-Yeah, yeah. Yeah. Yeah, yeah.
-Yeah. Yeah.
-Yeah.
-Yeah.
-Yeah, yeah.
-I mean, it's just... It's just... I mean, I put it as an interior designer, you know? And that's just... just see how it... demo piece for all, you know?
-As an interior designer?
-Yeah.
-Yeah.
-Yeah.
-Yes, but well, that's a detail. You said you would have to know.
-Yeah, sure.
-He's still in the gym, though.
-I mean, maybe, yeah. Well, it depends on the... but he is a guy that... I think it's a 5.5 in the morning.
-6:51. I have to ask the universe. Oh, 14. I don't know. I'll give you the, I'll give you the, the special one. The... A real one, I can't remember. I didn't see anybody roll. I actually didn't know that. I didn't see anybody roll. I, I think, I didn't see anybody roll. Maybe I just wanted to know if you had a second. You know what I'm saying? I was... I was working. At one point, I was working. All right. Yeah, I was a little bit... Yeah, yeah. You know, I'm gonna, I'm gonna, I'm gonna fight you so much. I think I'm going to get a one day in the month. I know I'm only, I'm only in financial stuff because I do some discount, but I am getting a mortgage. This is around the way I want to live, dude.
-Okay.
-I don't really want to. Hello, I'm Elijah. I'm Elijah. I'm Elijah. You sign up for the 30,000. Come, we'll let you in then. Okay? Just to learn how to do it right now. Okay. You got a little bit of money left. Okay, I'll be posting back to the comments. Okay. Oh, I got to be honest, I got to be honest, I got to be honest. I'm going to be honest. I got to be honest, I got to be honest, I got to be honest. I'm going to be honest. I'm going to be honest, I'm going to be honest. I'm going to be honest. I'm going to be honest. I'm going to be honest. I'm going to be honest. I'm going to be honest. I'm going to be honest. I'm gonna be honest. I'm going to be honest. I'm right here. Okay. Yeah. Okay. Okay. I'm right here. Okay. I'm right here. I'm right here. I'm right here. Okay. I'm right here. I'm right here. I'm right here. Okay. I'm right here. Okay. I'm right here. Okay. I'm right here. I'm right here. We're going to be coming to the comments. How long you been here? 1, 2, 3 hours. 1, 2, 3 hours. About 30 minutes. What I like about the questions. I would like to ask about the questions. I would like to ask about the questions. I would like to ask about the questions. I would like to ask about the questions. I would like to ask about the questions. I would like to ask about the questions. I would like to ask about the questions. I would like to ask about the questions. I would like to ask about the questions. I would like to ask about the questions. Nadia ka pani bhi khamosh bahata ya.
-Kili chadi mein turki la chh ka. I think I'm leaving now, there. I think I can make it. I think I can make it. The chatty me, who she loves, her emotional, she loves, she loves me. She's like, "Are you sure? Are you sure?" Are you sure? Are you sure? Are you sure? "Why is she keep on going?" "Oh, it's okay, it's okay, it's okay, it's okay, it's okay." "Sulekte tilan, kamohoshi uchi ta dua." "Khamoshiya akash hai, kunoorne tao zara." I think it's a good song. I think chatting is one way.
-Yeah, see, it's funny, I don't know.
-I think it's one way.
-I think It's a 2 kilometer. You know.
-Yeah, I know.
-Yeah.
-Yeah.
-I know, I know.
-Yeah. Oh, my God, my AC. To janna hai, ragda suko sa mujko, masamere hai tu, sa seviti hai, tusi sa ne le ara, bita e ba'ti le asara, ki tute taro de dua, ma tu le ara.
-Just to give you an example, first time Chindala ko sa one, you go to the next level, you go to the next level. <unintelligible
-<unintelligible
-<unintelligible
-<unintelligible
-. I remember when they had a scene.
-Yeah.
-And when they come to the origin,
-Mm.
-if they are, if they are in a private room. They made it a very hard decision.
-Hmm.
-They made it a very hard decision.
-Hmm.
-If they are, if they are in a crisis, they made it.
-Hmm.
-For them to stay.
-Oh, fight for the family, but...
-Mm.
+</html>
