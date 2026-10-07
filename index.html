@@ -13,22 +13,24 @@
 
 <link rel="canonical" href="https://aafnai-bistro.vercel.app/">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%236F4E37'/><text x='50' y='68' font-family='Georgia,serif' font-size='56' font-weight='600' fill='white' text-anchor='middle'>A</text></svg>">
+<link rel="apple-touch-icon" href="images/logo/logo.png">
 
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Aafnai Bistro">
 <meta property="og:title" content="Aafnai Bistro | Cafe &amp; Restaurant in Sinamangal, Kathmandu">
 <meta property="og:description" content="Coffee, breakfast, lunch and dinner in a relaxed setting in Sinamangal, Kathmandu. Open daily 7 AM – 9:30 PM.">
 <meta property="og:url" content="https://aafnai-bistro.vercel.app/">
-<meta property="og:image" content="https://images.unsplash.com/photo-1554118811-1e0d58224f24?q=75&w=1200&auto=format&fit=crop">
-<meta property="og:image:width" content="1200">
-<meta property="og:image:height" content="630">
-<meta property="og:image:alt" content="Coffee and food served at Aafnai Bistro in Sinamangal, Kathmandu">
+<meta property="og:image" content="https://aafnai-bistro.vercel.app/images/logo/logo.png">
+<meta property="og:image:width" content="512">
+<meta property="og:image:height" content="512">
+<meta property="og:image:alt" content="Aafnai Bistro logo">
 <meta property="og:locale" content="en_US">
 
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Aafnai Bistro | Cafe in Sinamangal, Kathmandu">
 <meta name="twitter:description" content="Coffee, breakfast, lunch and dinner in a relaxed setting in Sinamangal, Kathmandu. Open daily 7 AM – 9:30 PM.">
-<meta name="twitter:image" content="https://images.unsplash.com/photo-1554118811-1e0d58224f24?q=75&w=1200&auto=format&fit=crop">
+<meta name="twitter:image" content="https://aafnai-bistro.vercel.app/images/logo/logo.png">
+<meta name="twitter:image:alt" content="Aafnai Bistro logo">
 
 <meta name="theme-color" content="#FFFFFF" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#0B0B0C" media="(prefers-color-scheme: dark)">
@@ -104,7 +106,8 @@ button{font-family:inherit;cursor:pointer;border:none;background:none;color:inhe
 }
 .header.scrolled{border-bottom-color:var(--border-subtle)}
 .header .container{height:100%;display:flex;align-items:center;gap:24px}
-.logo{font-family:'Playfair Display',serif;font-size:20px;font-weight:600;color:var(--text-primary);white-space:nowrap}
+.logo{display:inline-flex;align-items:center;gap:8px;font-family:'Playfair Display',serif;font-size:20px;font-weight:600;color:var(--text-primary);white-space:nowrap}
+.logo img{width:32px;height:32px;border-radius:50%;object-fit:cover;flex-shrink:0}
 .logo span{color:var(--accent)}
 .nav-desktop{display:flex;gap:4px;font-size:14px;font-weight:500;margin-left:8px}
 .nav-desktop a{color:var(--text-secondary);padding:8px 12px;border-radius:8px;transition:color 150ms var(--ease-out),background 150ms var(--ease-out)}
@@ -183,6 +186,15 @@ button{font-family:inherit;cursor:pointer;border:none;background:none;color:inhe
 .bento-card h3{font-family:'Playfair Display',serif;font-size:20px;font-weight:600;letter-spacing:-.01em;margin-bottom:8px}
 .bento-card p{color:var(--text-secondary);font-size:14px;line-height:1.6}
 
+.gallery{padding:96px 0;background:var(--bg-canvas)}
+.gallery-header{text-align:center;margin-bottom:48px}
+.gallery-grid{display:grid;grid-template-columns:repeat(4,1fr);grid-auto-rows:200px;gap:12px}
+.gallery-item{position:relative;overflow:hidden;border-radius:var(--radius-card);background:var(--bg-muted)}
+.gallery-item img{width:100%;height:100%;object-fit:cover;transition:transform 500ms var(--ease-out)}
+.gallery-item:hover img{transform:scale(1.05)}
+.gallery-item.tall{grid-row:span 2}
+.gallery-item.wide{grid-column:span 2}
+
 .review-cta{padding:96px 0;background:var(--bg-subtle);border-top:1px solid var(--border-subtle);border-bottom:1px solid var(--border-subtle)}
 .review-cta-inner{max-width:640px;margin:0 auto;text-align:center}
 .review-cta .btn{margin-top:24px}
@@ -241,7 +253,8 @@ button{font-family:inherit;cursor:pointer;border:none;background:none;color:inhe
 
 .footer{background:var(--bg-canvas);border-top:1px solid var(--border-subtle);padding:64px 0 32px}
 .footer-grid{display:grid;grid-template-columns:2fr 1fr 1fr;gap:48px;margin-bottom:48px}
-.footer-brand{font-family:'Playfair Display',serif;font-size:22px;font-weight:600;margin-bottom:12px}
+.footer-brand{display:inline-flex;align-items:center;gap:8px;font-family:'Playfair Display',serif;font-size:22px;font-weight:600;margin-bottom:12px}
+.footer-brand img{width:36px;height:36px;border-radius:50%;object-fit:cover;flex-shrink:0}
 .footer-brand span{color:var(--accent)}
 .footer-tagline{font-family:var(--mono);font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--text-tertiary);margin-bottom:16px}
 .footer-desc{font-size:14px;color:var(--text-secondary);max-width:340px;line-height:1.65}
@@ -263,6 +276,7 @@ button{font-family:inherit;cursor:pointer;border:none;background:none;color:inhe
   .map-facade{min-height:380px;aspect-ratio:16/10}
   .local-grid{grid-template-columns:1fr;gap:40px}
   .local-visual{aspect-ratio:16/10}
+  .gallery-grid{grid-template-columns:repeat(2,1fr)}
 }
 @media (max-width:900px){
   .nav-desktop,.header-actions .btn{display:none}
@@ -274,7 +288,7 @@ button{font-family:inherit;cursor:pointer;border:none;background:none;color:inhe
 @media (max-width:768px){
   .container{padding:0 16px}
   .footer-grid{grid-template-columns:1fr;gap:32px}
-  .menu-section,.feedback,.hours,.why-us,.location,.local-area,.review-cta{padding:64px 0}
+  .menu-section,.feedback,.hours,.why-us,.location,.local-area,.review-cta,.gallery{padding:64px 0}
   .bento-grid{grid-template-columns:1fr}
   .trust-items{gap:20px;font-size:10px}
 }
@@ -284,6 +298,8 @@ button{font-family:inherit;cursor:pointer;border:none;background:none;color:inhe
   .menu-grid{grid-template-columns:1fr}
   .location-actions{flex-direction:column}
   .location-actions .btn{width:100%}
+  .gallery-grid{grid-template-columns:1fr;grid-auto-rows:220px}
+  .gallery-item.wide,.gallery-item.tall{grid-column:auto;grid-row:auto}
 }
 </style>
 </head>
@@ -313,22 +329,25 @@ button{font-family:inherit;cursor:pointer;border:none;background:none;color:inhe
 
 <header class="header" id="header">
   <div class="container">
-    <a href="/" class="logo" aria-label="Aafnai Bistro home">Aafnai <span>·</span></a>
+    <a href="/" class="logo" aria-label="Aafnai Bistro home">
+      <img src="images/logo/logo.png" alt="Aafnai Bistro logo" width="32" height="32">
+      <span>Aafnai <span>·</span></span>
+    </a>
     <nav class="nav-desktop" aria-label="Primary">
       <a href="#about">About</a>
       <a href="#menu">Menu</a>
+      <a href="#gallery">Gallery</a>
       <a href="#location">Location</a>
-      <a href="#hours">Hours</a>
       <a href="#contact">Contact</a>
     </nav>
     <div class="header-spacer"></div>
     <div class="header-actions">
       <a href="tel:+9779706666144" class="icon-btn" aria-label="Call Aafnai Bistro">
-        <svg><use href="#i-phone"/></svg>
+        <svg aria-hidden="true"><use href="#i-phone"/></svg>
       </a>
-      <a href="#location" class="btn btn-primary">Visit Us</a>
+      <a href="#menu" class="btn btn-primary">View Menu</a>
       <button class="mobile-toggle" id="mobileToggle" aria-label="Open menu" aria-expanded="false" aria-controls="mobileMenu">
-        <svg><use href="#i-menu"/></svg>
+        <svg aria-hidden="true"><use href="#i-menu"/></svg>
       </button>
     </div>
   </div>
@@ -337,10 +356,10 @@ button{font-family:inherit;cursor:pointer;border:none;background:none;color:inhe
 <div class="mobile-menu" id="mobileMenu" role="dialog" aria-modal="true" aria-label="Mobile navigation" inert>
   <a href="#about">About</a>
   <a href="#menu">Menu</a>
+  <a href="#gallery">Gallery</a>
   <a href="#location">Location</a>
-  <a href="#hours">Hours</a>
   <a href="#contact">Contact</a>
-  <a href="#location" class="btn btn-primary">Visit Us</a>
+  <a href="#menu" class="btn btn-primary">View Menu</a>
 </div>
 
 <main id="main">
@@ -353,7 +372,7 @@ button{font-family:inherit;cursor:pointer;border:none;background:none;color:inhe
                 https://images.unsplash.com/photo-1554118811-1e0d58224f24?q=75&w=1600&auto=format&fit=crop 1600w,
                 https://images.unsplash.com/photo-1554118811-1e0d58224f24?q=75&w=2000&auto=format&fit=crop 2000w"
         sizes="100vw"
-        alt="Cafe interior at Aafnai Bistro in Sinamangal, Kathmandu"
+        alt="Warm cafe interior with wooden tables and pendant lighting at Aafnai Bistro in Sinamangal, Kathmandu"
         width="1600" height="1067"
         fetchpriority="high" loading="eager" decoding="async">
     </div>
@@ -367,7 +386,7 @@ button{font-family:inherit;cursor:pointer;border:none;background:none;color:inhe
       <p class="hero-sub">Coffee, food and relaxed dining for everyday hangouts, meals and conversations in Sinamangal.</p>
       <div class="hero-buttons">
         <a href="#menu" class="btn btn-primary">View Menu</a>
-        <a href="#location" class="btn btn-outline">Get Directions</a>
+        <a href="#location" class="btn btn-outline">Find Us</a>
       </div>
     </div>
   </section>
@@ -375,9 +394,9 @@ button{font-family:inherit;cursor:pointer;border:none;background:none;color:inhe
   <aside class="trust-bar" role="region" aria-label="Quick information">
     <div class="container">
       <div class="trust-items">
-        <span><svg><use href="#i-clock"/></svg> Open Daily · 7:00 AM – 9:30 PM</span>
-        <span><svg><use href="#i-pin"/></svg> Sinamangal, Kathmandu</span>
-        <span><svg><use href="#i-wallet"/></svg> NPR 500–1,000 approx.</span>
+        <span><svg aria-hidden="true"><use href="#i-clock"/></svg> Open Daily · 7:00 AM – 9:30 PM</span>
+        <span><svg aria-hidden="true"><use href="#i-pin"/></svg> Sinamangal, Kathmandu</span>
+        <span><svg aria-hidden="true"><use href="#i-wallet"/></svg> NPR 500–1,000 approx.</span>
       </div>
     </div>
   </aside>
@@ -406,7 +425,7 @@ button{font-family:inherit;cursor:pointer;border:none;background:none;color:inhe
             srcset="https://images.unsplash.com/photo-1521017432531-fbd92d768814?q=75&w=600&auto=format&fit=crop 600w,
                     https://images.unsplash.com/photo-1521017432531-fbd92d768814?q=75&w=1000&auto=format&fit=crop 1000w"
             sizes="(max-width: 1024px) 100vw, 40vw"
-            alt="Cafe interior at Aafnai Bistro in Sinamangal, Kathmandu"
+            alt="Seating area with coffee and light meals at Aafnai Bistro in Sinamangal, Kathmandu"
             width="1000" height="1250"
             loading="lazy" decoding="async">
         </div>
@@ -445,46 +464,89 @@ button{font-family:inherit;cursor:pointer;border:none;background:none;color:inhe
       <div class="bento-grid reveal">
         <div class="bento-card span-2">
           <div>
-            <div class="bento-icon"><svg><use href="#i-coffee"/></svg></div>
+            <div class="bento-icon"><svg aria-hidden="true"><use href="#i-coffee"/></svg></div>
             <h3>Coffee, Made Well</h3>
             <p>Freshly brewed coffee and tea, served the way you like it.</p>
           </div>
         </div>
         <div class="bento-card">
           <div>
-            <div class="bento-icon"><svg><use href="#i-utensils"/></svg></div>
+            <div class="bento-icon"><svg aria-hidden="true"><use href="#i-utensils"/></svg></div>
             <h3>Everyday Meals</h3>
             <p>Breakfast, lunch and dinner in a casual setting.</p>
           </div>
         </div>
         <div class="bento-card">
           <div>
-            <div class="bento-icon"><svg><use href="#i-users"/></svg></div>
+            <div class="bento-icon"><svg aria-hidden="true"><use href="#i-users"/></svg></div>
             <h3>Group Hangouts</h3>
             <p>Space for friends, families and small groups.</p>
           </div>
         </div>
         <div class="bento-card">
           <div>
-            <div class="bento-icon"><svg><use href="#i-laptop"/></svg></div>
+            <div class="bento-icon"><svg aria-hidden="true"><use href="#i-laptop"/></svg></div>
             <h3>Work-Friendly</h3>
             <p>A calm spot to sit with a coffee and get things done.</p>
           </div>
         </div>
         <div class="bento-card">
           <div>
-            <div class="bento-icon"><svg><use href="#i-bag"/></svg></div>
+            <div class="bento-icon"><svg aria-hidden="true"><use href="#i-bag"/></svg></div>
             <h3>Takeaway</h3>
             <p>Grab your order to go when you're short on time.</p>
           </div>
         </div>
         <div class="bento-card">
           <div>
-            <div class="bento-icon"><svg><use href="#i-bike"/></svg></div>
+            <div class="bento-icon"><svg aria-hidden="true"><use href="#i-bike"/></svg></div>
             <h3>Food Delivery</h3>
             <p>Delivery available for orders around the area.</p>
           </div>
         </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="gallery" id="gallery" aria-labelledby="gallery-heading">
+    <div class="container">
+      <div class="gallery-header reveal">
+        <p class="section-label">Gallery</p>
+        <h2 class="section-title" id="gallery-heading">Inside Aafnai Bistro</h2>
+        <p class="section-sub" style="margin:0 auto">A look at the space, the coffee and the food at our Sinamangal cafe.</p>
+      </div>
+
+      <div class="gallery-grid reveal">
+        <figure class="gallery-item wide">
+          <img src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?q=75&w=1200&auto=format&fit=crop"
+               alt="Cafe interior with wooden tables and warm lighting at Aafnai Bistro"
+               width="1200" height="800" loading="lazy" decoding="async">
+        </figure>
+        <figure class="gallery-item tall">
+          <img src="https://images.unsplash.com/photo-1521017432531-fbd92d768814?q=75&w=800&auto=format&fit=crop"
+               alt="Seating corner with plants and natural light at Aafnai Bistro"
+               width="800" height="1200" loading="lazy" decoding="async">
+        </figure>
+        <figure class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1510707577719-ae7c14805e3a?q=75&w=800&auto=format&fit=crop"
+               alt="Espresso being pulled at Aafnai Bistro"
+               width="800" height="800" loading="lazy" decoding="async">
+        </figure>
+        <figure class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1572442388796-11668a67e53d?q=75&w=800&auto=format&fit=crop"
+               alt="Cappuccino with latte art served at Aafnai Bistro"
+               width="800" height="800" loading="lazy" decoding="async">
+        </figure>
+        <figure class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1533089860892-a7c6f0a88666?q=75&w=800&auto=format&fit=crop"
+               alt="Breakfast plate with eggs and toast at Aafnai Bistro"
+               width="800" height="800" loading="lazy" decoding="async">
+        </figure>
+        <figure class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1534422298391-e4f8c172dddb?q=75&w=800&auto=format&fit=crop"
+               alt="Steamed momo served with achar at Aafnai Bistro"
+               width="800" height="800" loading="lazy" decoding="async">
+        </figure>
       </div>
     </div>
   </section>
@@ -495,8 +557,13 @@ button{font-family:inherit;cursor:pointer;border:none;background:none;color:inhe
         <p class="section-label">Your Feedback</p>
         <h2 class="section-title" id="review-cta-heading">Enjoyed your visit?</h2>
         <p class="section-sub" style="margin:0 auto">Share your experience on Google — your feedback helps us improve.</p>
-        <a href="https://search.google.com/local/writereview?placeid=ChIJ_-UufgAZ6zkR5iSQhztt6Uk" target="_blank" rel="noopener noreferrer" class="btn btn-outline">
-          <svg><use href="#i-google"/></svg> Write a Google Review
+        <a
+          href="https://www.google.com/maps/place/AAFNAI+BISTRO/@27.6972012,85.3496819,17.51z/data=!4m16!1m9!3m8!1s0x39eb19007e2e35ff:0x49e96d3b479024e6!2sAAFNAI+BISTRO!8m2!3d27.6968644!4d85.3504572!9m1!1b1!16s%2Fg%2F11vs8nksqq!3m5!1s0x39eb19007e2e35ff:0x49e96d3b479024e6!8m2!3d27.6968644!4d85.3504572!16s%2Fg%2F11vs8nksqq?entry=ttu&g_ep=EgoyMDI2MTAwNC4wIKXMDSoASAFQAw%3D%3D"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="btn btn-outline"
+          aria-label="Write a Google review for Aafnai Bistro on Google Maps">
+          <svg aria-hidden="true"><use href="#i-google"/></svg> Write a Google Review
         </a>
       </div>
     </div>
@@ -508,10 +575,10 @@ button{font-family:inherit;cursor:pointer;border:none;background:none;color:inhe
         <div class="location-info reveal">
           <p class="section-label">Find Us</p>
           <h2 id="location-heading">Location</h2>
-          <p>Aafnai Bistro is located in Sinamangal, Kathmandu, Nepal.</p>
+          <p>Aafnai Bistro is located in Sinamangal, Kathmandu, Nepal — on the Tribhuvan International Airport side of the city, a short distance from Baneshwor.</p>
 
           <div class="location-detail">
-            <svg><use href="#i-pin"/></svg>
+            <svg aria-hidden="true"><use href="#i-pin"/></svg>
             <div>
               <div class="location-detail-label">Address</div>
               <div class="location-detail-value">Sinamangal</div>
@@ -519,7 +586,7 @@ button{font-family:inherit;cursor:pointer;border:none;background:none;color:inhe
             </div>
           </div>
           <div class="location-detail">
-            <svg><use href="#i-clock"/></svg>
+            <svg aria-hidden="true"><use href="#i-clock"/></svg>
             <div>
               <div class="location-detail-label">Hours</div>
               <div class="location-detail-value">7:00 AM – 9:30 PM</div>
@@ -527,25 +594,25 @@ button{font-family:inherit;cursor:pointer;border:none;background:none;color:inhe
             </div>
           </div>
           <div class="location-detail">
-            <svg><use href="#i-phone"/></svg>
+            <svg aria-hidden="true"><use href="#i-phone"/></svg>
             <div>
               <div class="location-detail-label">Phone</div>
               <a href="tel:+9779706666144" class="location-detail-value">+977 970-6666144</a>
             </div>
           </div>
           <div class="location-actions">
-            <a href="https://www.google.com/maps/place/aafnai+bistro/data=!4m2!3m1!1s0x39eb19007e2e35ff:0x49e96d3b479024e6" target="_blank" rel="noopener noreferrer" class="btn btn-primary" aria-label="Get directions to Aafnai Bistro on Google Maps">
-              <svg><use href="#i-directions"/></svg> Get Directions
+            <a href="https://www.google.com/maps/place/AAFNAI+BISTRO/@27.6972012,85.3496819,17.51z/data=!4m16!1m9!3m8!1s0x39eb19007e2e35ff:0x49e96d3b479024e6!2sAAFNAI+BISTRO!8m2!3d27.6968644!4d85.3504572!9m1!1b1!16s%2Fg%2F11vs8nksqq!3m5!1s0x39eb19007e2e35ff:0x49e96d3b479024e6!8m2!3d27.6968644!4d85.3504572!16s%2Fg%2F11vs8nksqq?entry=ttu&g_ep=EgoyMDI2MTAwNC4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener noreferrer" class="btn btn-primary" aria-label="Get directions to Aafnai Bistro on Google Maps">
+              <svg aria-hidden="true"><use href="#i-directions"/></svg> Get Directions
             </a>
             <a href="tel:+9779706666144" class="btn btn-outline">
-              <svg><use href="#i-phone"/></svg> Call Now
+              <svg aria-hidden="true"><use href="#i-phone"/></svg> Call Now
             </a>
           </div>
         </div>
 
         <div class="map-facade reveal" id="mapFacade" role="button" tabindex="0" aria-label="Load interactive map of Aafnai Bistro in Sinamangal, Kathmandu">
           <div class="map-facade-placeholder">
-            <svg><use href="#i-pin"/></svg>
+            <svg aria-hidden="true"><use href="#i-pin"/></svg>
             <strong>View location on map</strong>
             <span>Tap to load Google Maps</span>
           </div>
@@ -623,7 +690,7 @@ button{font-family:inherit;cursor:pointer;border:none;background:none;color:inhe
         </form>
 
         <div class="form-success" id="feedbackSuccess" role="status" aria-live="polite">
-          <div class="success-icon"><svg><use href="#i-check"/></svg></div>
+          <div class="success-icon"><svg aria-hidden="true"><use href="#i-check"/></svg></div>
           <h3>Thank You</h3>
           <p id="feedbackSuccessMessage">We appreciate you taking the time to write to us.</p>
 
@@ -632,11 +699,12 @@ button{font-family:inherit;cursor:pointer;border:none;background:none;color:inhe
             <p class="review-handoff-text">It takes 30 seconds to share your experience on Google. Your review helps others find us.</p>
             <a
               id="googleReviewBtn"
-              href="https://search.google.com/local/writereview?placeid=ChIJ_-UufgAZ6zkR5iSQhztt6Uk"
+              href="https://www.google.com/maps/place/AAFNAI+BISTRO/@27.6972012,85.3496819,17.51z/data=!4m16!1m9!3m8!1s0x39eb19007e2e35ff:0x49e96d3b479024e6!2sAAFNAI+BISTRO!8m2!3d27.6968644!4d85.3504572!9m1!1b1!16s%2Fg%2F11vs8nksqq!3m5!1s0x39eb19007e2e35ff:0x49e96d3b479024e6!8m2!3d27.6968644!4d85.3504572!16s%2Fg%2F11vs8nksqq?entry=ttu&g_ep=EgoyMDI2MTAwNC4wIKXMDSoASAFQAw%3D%3D"
               target="_blank"
               rel="noopener noreferrer"
-              class="btn btn-primary">
-              <svg><use href="#i-google"/></svg> Post a Google Review
+              class="btn btn-primary"
+              aria-label="Post a Google review for Aafnai Bistro on Google Maps">
+              <svg aria-hidden="true"><use href="#i-google"/></svg> Post a Google Review
             </a>
           </div>
         </div>
@@ -650,7 +718,10 @@ button{font-family:inherit;cursor:pointer;border:none;background:none;color:inhe
   <div class="container">
     <div class="footer-grid">
       <div>
-        <div class="footer-brand">Aafnai <span>·</span></div>
+        <div class="footer-brand">
+          <img src="images/logo/logo.png" alt="Aafnai Bistro logo" width="36" height="36">
+          <span>Aafnai <span>·</span></span>
+        </div>
         <p class="footer-tagline">Coffee · Food · People</p>
         <p class="footer-desc">A cafe and casual dining spot in Sinamangal, Kathmandu. Coffee, breakfast, lunch and dinner in a relaxed setting.</p>
       </div>
@@ -658,8 +729,8 @@ button{font-family:inherit;cursor:pointer;border:none;background:none;color:inhe
         <h3>Explore</h3>
         <a href="#about">About</a>
         <a href="#menu">Menu</a>
+        <a href="#gallery">Gallery</a>
         <a href="#location">Location</a>
-        <a href="#hours">Hours</a>
         <a href="#contact">Contact</a>
       </nav>
       <address class="footer-col" style="font-style:normal">
@@ -679,19 +750,19 @@ button{font-family:inherit;cursor:pointer;border:none;background:none;color:inhe
 
 <nav class="mobile-action-bar" aria-label="Quick actions">
   <a href="tel:+9779706666144">
-    <svg><use href="#i-phone"/></svg>
+    <svg aria-hidden="true"><use href="#i-phone"/></svg>
     <span>Call</span>
   </a>
-  <a href="https://www.google.com/maps/place/aafnai+bistro/data=!4m2!3m1!1s0x39eb19007e2e35ff:0x49e96d3b479024e6" target="_blank" rel="noopener noreferrer" aria-label="Get directions to Aafnai Bistro on Google Maps">
-    <svg><use href="#i-directions"/></svg>
+  <a href="https://www.google.com/maps/place/AAFNAI+BISTRO/@27.6972012,85.3496819,17.51z/data=!4m16!1m9!3m8!1s0x39eb19007e2e35ff:0x49e96d3b479024e6!2sAAFNAI+BISTRO!8m2!3d27.6968644!4d85.3504572!9m1!1b1!16s%2Fg%2F11vs8nksqq!3m5!1s0x39eb19007e2e35ff:0x49e96d3b479024e6!8m2!3d27.6968644!4d85.3504572!16s%2Fg%2F11vs8nksqq?entry=ttu&g_ep=EgoyMDI2MTAwNC4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener noreferrer" aria-label="Get directions to Aafnai Bistro on Google Maps">
+    <svg aria-hidden="true"><use href="#i-directions"/></svg>
     <span>Directions</span>
   </a>
   <a href="#menu">
-    <svg><use href="#i-utensils"/></svg>
+    <svg aria-hidden="true"><use href="#i-utensils"/></svg>
     <span>Menu</span>
   </a>
   <a href="#contact">
-    <svg><use href="#i-calendar"/></svg>
+    <svg aria-hidden="true"><use href="#i-calendar"/></svg>
     <span>Book</span>
   </a>
 </nav>
@@ -756,7 +827,7 @@ button{font-family:inherit;cursor:pointer;border:none;background:none;color:inhe
     menu.classList.toggle('open', open);
     toggle.setAttribute('aria-expanded', String(open));
     menu.toggleAttribute('inert', !open);
-    toggle.innerHTML = open ? '<svg><use href="#i-close"/></svg>' : '<svg><use href="#i-menu"/></svg>';
+    toggle.innerHTML = open ? '<svg aria-hidden="true"><use href="#i-close"/></svg>' : '<svg aria-hidden="true"><use href="#i-menu"/></svg>';
     if (open){
       scrollY = window.scrollY;
       document.body.style.position = 'fixed';
@@ -879,15 +950,30 @@ button{font-family:inherit;cursor:pointer;border:none;background:none;color:inhe
 
 <script type="application/ld+json">
 {
-  "@context":"https://schema.org",
-  "@type":"CafeOrCoffeeShop",
-  "name":"Aafnai Bistro",
-  "url":"https://aafnai-bistro.vercel.app/",
-  "telephone":"+977-970-6666144",
-  "address":{"@type":"PostalAddress","addressLocality":"Sinamangal","addressRegion":"Kathmandu","addressCountry":"NP"},
-  "openingHoursSpecification":{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],"opens":"07:00","closes":"21:30"},
-  "priceRange":"NPR 500–1,000",
-  "servesCuisine":["Cafe","Nepalese","Asian"]
+  "@context": "https://schema.org",
+  "@type": "Restaurant",
+  "name": "Aafnai Bistro",
+  "url": "https://aafnai-bistro.vercel.app/",
+  "telephone": "+977-970-6666144",
+  "image": [
+    "https://aafnai-bistro.vercel.app/images/logo/logo.png",
+    "https://images.unsplash.com/photo-1554118811-1e0d58224f24?q=75&w=1600&auto=format&fit=crop"
+  ],
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Sinamangal",
+    "addressRegion": "Kathmandu",
+    "addressCountry": "NP"
+  },
+  "hasMap": "https://www.google.com/maps/place/AAFNAI+BISTRO/@27.6972012,85.3496819,17.51z/data=!4m16!1m9!3m8!1s0x39eb19007e2e35ff:0x49e96d3b479024e6!2sAAFNAI+BISTRO!8m2!3d27.6968644!4d85.3504572!9m1!1b1!16s%2Fg%2F11vs8nksqq!3m5!1s0x39eb19007e2e35ff:0x49e96d3b479024e6!8m2!3d27.6968644!4d85.3504572!16s%2Fg%2F11vs8nksqq?entry=ttu&g_ep=EgoyMDI2MTAwNC4wIKXMDSoASAFQAw%3D%3D",
+  "openingHoursSpecification": {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
+    "opens": "07:00",
+    "closes": "21:30"
+  },
+  "servesCuisine": ["Cafe", "Nepalese", "Asian"],
+  "priceRange": "NPR 500–1,000"
 }
 </script>
 </body>
