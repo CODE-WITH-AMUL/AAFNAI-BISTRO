@@ -1,3 +1,7 @@
+# robots.txt for Aafnai Bistro
+# https://aafnai-bistro.vercel.app/
+
 User-agent: *
 Allow: /
+
 Sitemap: https://aafnai-bistro.vercel.app/sitemap.xml
